@@ -1,0 +1,4 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCA_036417435.1	Inia geoffrensis	Chromosome	mIniGeo1.hap1	reference genome	40892022	117431308	2749345781	902	GCA_036417435.1-GB_2026_01_11	2024-02-06
+GCA_004363515.1	Inia geoffrensis	Scaffold	IniGeo_v1_BIUU		24570	26707	2596281358	1213610		2019-03-22
+GCA_036417475.1	Inia geoffrensis	Chromosome	mIniGeo1.hap2		41942625	109672245	2540437634	800		2024-02-06

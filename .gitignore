@@ -1,0 +1,40 @@
+# -------------------------
+# Large reference genomes
+# -------------------------
+cetacean_PCNA_project/genomes/
+cetacean_PCNA_project/tools/beluga_GCA_002288925.3/
+amp_seq_validation/GCF_009873245.2_mBalMus1.pri.v3_genomic.fna
+amp_seq_validation/GCF_002288925.2_ASM228892v3_genomic.fna
+amp_seq_validation/*.fai
+
+# -------------------------
+# BLAST databases
+# -------------------------
+cetacean_PCNA_project/blast_db/
+amp_seq_validation/bluewhale_db.*
+
+# -------------------------
+# Large downloaded annotation/protein files
+# -------------------------
+cetacean_PCNA_project/annotations/
+cetacean_PCNA_project/proteins/beluga.faa
+
+# -------------------------
+# Downloaded NCBI command-line tools or archives
+# -------------------------
+cetacean_PCNA_project/tools/ncbi_dataset.zip
+cetacean_PCNA_project/tools/datasets
+cetacean_PCNA_project/tools/dataformat
+
+# -------------------------
+# Windows metadata files from copying over
+# -------------------------
+*:Zone.Identifier
+
+# -------------------------
+# junk/cache files
+# -------------------------
+.DS_Store
+__pycache__/
+*.pyc
+*.log

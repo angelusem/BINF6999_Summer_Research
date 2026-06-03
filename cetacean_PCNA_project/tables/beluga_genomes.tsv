@@ -1,0 +1,9 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_002288925.2	Delphinapterus leucas	Scaffold	ASM228892v3	reference genome	196689	31183418	2362758273	5904	NCBI Delphinapterus leucas Annotation Release 101	2019-08-29
+GCA_002288925.3	Delphinapterus leucas	Scaffold	ASM228892v3	reference genome	196689	31183418	2362758273	5904		2019-09-03
+GCA_009917725.1	Delphinapterus leucas	Scaffold	GSC_bbay_1.0		76763	1361507	2422274619	51176		2020-01-07
+GCA_009917745.1	Delphinapterus leucas	Scaffold	GSC_cook_1.0		141056	3009037	2389893305	25928		2020-01-07
+GCA_029941415.3	Delphinapterus leucas	Chromosome	S_20_00693_Flye_assembly_V1.1		291510	88022474	2403585719	9098		2024-04-10
+GCA_029941435.3	Delphinapterus leucas	Chromosome	S_20_00702_Flye_assembly_V1.1		524669	87682339	2396471963	5844		2024-04-10
+GCA_029941455.3	Delphinapterus leucas	Chromosome	S_20_00703_Flye_assembly_V1.1		608471	87682727	2378777480	4368		2024-04-10
+GCA_035221355.1	Delphinapterus leucas	Scaffold	mDelLeu1_p1.0		3310522	44354054	2359906479	5239		2024-01-08

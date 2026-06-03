@@ -1,0 +1,7 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_002837175.3	Physeter macrocephalus	Chromosome	ASM283717v5	reference genome	42877	122182240	2496209109	12168	GCF_002837175.3-RS_2025_01	2023-02-28
+GCF_000472045.1	Physeter macrocephalus	Scaffold	Physeter_macrocephalus-2.0.2		35258	427290	2280711356	11710	NCBI Physeter catodon Annotation Release 100	2013-09-30
+GCA_000472045.1	Physeter macrocephalus	Scaffold	Physeter_macrocephalus-2.0.2		35258	427290	2280711356	11710		2013-09-30
+GCA_002837175.5	Physeter macrocephalus	Chromosome	ASM283717v5	reference genome	42877	122182240	2496209109	12168		2023-02-28
+GCA_900411695.1	Physeter macrocephalus	Scaffold	PhyCat2.0		43829	122182240	2512140680	14676		2018-07-01
+GCA_978012005.1	Physeter macrocephalus	Chromosome	mPhyCat2.hap1.1		43408382	120321103	2787078145	782		2026-02-01

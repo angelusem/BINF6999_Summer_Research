@@ -1,0 +1,8 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_005190385.1	Monodon monoceros	Scaffold	NGI_Narwhal_1	reference genome	255327	107566389	2355574979	6972	NCBI Monodon monoceros Annotation Release 100	2019-05-06
+GCA_005190385.4	Monodon monoceros	Chromosome	mMonMon2.pri	reference genome	22031227	108465051	2341941226	90	GCA_005190385.4-GB_2026_03_30	2026-01-23
+GCA_004026685.1	Monodon monoceros	Scaffold	MonMon_M_v1_BIUU		67024	86766	2472545502	644873		2019-01-16
+GCA_004027045.1	Monodon monoceros	Scaffold	MonMon_v1_BIUU		70965	88921	2546711041	882704		2019-01-16
+GCA_005125345.1	Monodon monoceros	Scaffold	ASM512534v1		10044	1483363	2350881526	21006	Annotation submitted by University of Copenhagen	2019-05-03
+GCA_005190385.2	Monodon monoceros	Scaffold	NGI_Narwhal_1		255327	107566389	2355574979	6972		2019-05-07
+GCA_029941395.3	Monodon monoceros	Chromosome	S_20_00708_Flye_assembly_V1.1		597131	83769834	2335257954	6368		2024-04-10

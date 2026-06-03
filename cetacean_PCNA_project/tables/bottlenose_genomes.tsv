@@ -1,0 +1,11 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_011762595.2	Tursiops truncatus	Chromosome	mTurTru1.mat.Y	reference genome	9729386	108430135	2378505825	361	GCF_011762595.2-RS_2025_04	2024-12-12
+GCF_000151865.2	Tursiops truncatus	Scaffold	Ttru_1.4		11821	116287	2551401796	240557		2012-01-02
+GCF_001922835.1	Tursiops truncatus	Scaffold	NIST Tur_tru v1		44302	26555543	2132499883	2647	NCBI Tursiops truncatus Annotation Release 101	2016-12-28
+GCA_000151865.3	Tursiops truncatus	Scaffold	Ttru_1.4		11821	116287	2551401796	240557		2012-01-02
+GCA_001922835.1	Tursiops truncatus	Scaffold	NIST Tur_tru v1		44302	26555543	2132499883	2647		2016-12-28
+GCA_003314715.1	Tursiops truncatus	Scaffold	Tur_tru_Illumina_hap_v1		30985	27166507	2404363272	481		2018-07-11
+GCA_003435595.3	Tursiops truncatus	Scaffold	Tur_tru_Illumina_phased_v1		27134	931081	2407801651	42644		2018-11-02
+GCA_011762515.1	Tursiops truncatus	Scaffold	mTurTru1.pat		12444576	87973674	2378995196	1166		2020-03-25
+GCA_011762535.1	Tursiops truncatus	Scaffold	mTurTru1.mat		9995053	93918948	2385753970	985		2020-03-25
+GCA_011762595.2	Tursiops truncatus	Chromosome	mTurTru1.mat.Y	reference genome	9729386	108430135	2378505825	361		2024-12-12

@@ -1,0 +1,5 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_009873245.2	Balaenoptera musculus	Chromosome	mBalMus1.pri.v3	reference genome	6315640	110314666	2374852541	105	NCBI Balaenoptera musculus Annotation Release 100	2020-10-02
+GCA_008658375.2	Balaenoptera musculus	Scaffold	mBalMus1.alt.v2		275582	275582	1835388607	10996		2020-09-30
+GCA_009873245.3	Balaenoptera musculus	Chromosome	mBalMus1.pri.v3	reference genome	6315640	110314666	2374852541	105		2020-10-02
+GCA_036250585.1	Balaenoptera musculus musculus	Scaffold	ASM3625058v1		296967	331161	2443609708	18918		2024-02-06

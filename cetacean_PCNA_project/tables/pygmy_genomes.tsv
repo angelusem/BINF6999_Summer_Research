@@ -1,0 +1,5 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_026419965.1	Kogia breviceps	Chromosome	mKogBre1 haplotype 1	reference genome	42780423	122394096	2555838840	580	GCF_026419965.1-RS_2024_07	2022-11-27
+GCA_004363705.1	Kogia breviceps	Scaffold	KogBre_v1_BIUU		26201	28812	2759698159	1252072		2019-03-22
+GCA_026419965.1	Kogia breviceps	Chromosome	mKogBre1 haplotype 1	reference genome	42780423	122394096	2555838840	580		2022-11-27
+GCA_026419985.1	Kogia breviceps	Chromosome	mKogBre1 haplotype 2		40421539	120411150	2613416393	391		2022-11-27

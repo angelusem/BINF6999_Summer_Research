@@ -1,0 +1,6 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_963924675.1	Phocoena phocoena	Chromosome	mPhoPho1.1	reference genome	3726689	110192646	2512713112	439	GCF_963924675.1-RS_2024_06	2024-01-29
+GCA_003071005.2	Phocoena phocoena	Scaffold	ASM307100v2		2838	28296388	2391782435	13487		2020-11-10
+GCA_004363495.1	Phocoena phocoena	Scaffold	PhoPho_v1_BIUU		89111	115969	2701010810	1331158		2019-03-22
+GCA_963924675.1	Phocoena phocoena	Chromosome	mPhoPho1.1	reference genome	3726689	110192646	2512713112	439		2024-01-29
+GCA_963924725.1	Phocoena phocoena	Contig	mPhoPho1.1 alternate haplotype		1056847	1056847	2673589998	7636		2024-01-31

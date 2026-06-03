@@ -1,0 +1,4 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_028564815.1	Eubalaena glacialis	Chromosome	mEubGla1.1.hap2.+ XY	reference genome	37467374	129620717	2843675187	788	GCF_028564815.1-RS_2023_12	2023-02-09
+GCA_028564815.2	Eubalaena glacialis	Chromosome	mEubGla1.1.hap2.+ XY	reference genome	37467374	129620717	2843675187	788		2023-02-09
+GCA_028571275.2	Eubalaena glacialis	Chromosome	mEubGla1.1.hap1		34529248	124856057	2603848905	938		2023-02-09

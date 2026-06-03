@@ -1,0 +1,6 @@
+Assembly Accession	Organism Name	Assembly Level	Assembly Name	Assembly Refseq Category	Assembly Stats Contig N50	Assembly Stats Scaffold N50	Assembly Stats Total Sequence Length	Assembly Stats Number of Scaffolds	Annotation Name	Assembly Release Date
+GCF_963455315.2	Globicephala melas	Chromosome	mGloMel1.2	reference genome	3290841	105087932	2651276051	992	GCF_963455315.2-RS_2024_11	2024-09-07
+GCF_006547405.1	Globicephala melas	Scaffold	ASM654740v1		332801	18102937	2333854592	6636	NCBI Globicephala melas Annotation Release 100	2019-07-01
+GCA_006547405.1	Globicephala melas	Scaffold	ASM654740v1		332801	18102937	2333854592	6636		2019-07-03
+GCA_963455315.2	Globicephala melas	Chromosome	mGloMel1.2	reference genome	3290841	105087932	2651276051	992		2024-09-07
+GCA_963455345.2	Globicephala melas	Contig	mGloMel1.2 alternate haplotype		137938	137938	2042593655	28097		2024-09-08
