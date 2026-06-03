@@ -63,8 +63,9 @@ The flanking regions are unique to each insertion site, making these assays copy
 
 wf- amplicon pipeline: input raw reads → aligned to a short target reference → Medaka for polished consensus sequence → variant calling
 
-\*\* Issue \#1 multiple amplicons per barcode are supported but only if they are different enough. It is possible that with 95% sequence homology, retrogene1 (R1) and 2 (R2) are too similar to be pooled together in ARetrogenes sample.
 
+\*\* Issue \#1 reference.fasta needed requires extracted sequences from the reference genome. Script used is saved inside folder as nextflow_ref.sh
+\*\* Issue \#2 multiple amplicons per barcode are supported but only if they are different enough. It is possible that with 95% sequence homology, retrogene1 (R1) and 2 (R2) are too similar to be pooled together in ARetrogenes sample.
 * if ARetrogene primer set amplifies both R1 and R2 simultaneously from the same rxn then the resulting pool of reads is a mix of 2 distinct templates that are 95% similar to each other ⇒ different positions are \~ 5% of the 786 bp so \~ 38 positions, at these positions Medaka will see roughly a 50/50 split of 2 alleles. Haploid variant caller interprets this 50/50 split as noise and wont call 2 alleles confidently versus at the 95% where R1 and R2 agree it will be confident that there is no variant  
 * options:  
   * use 2 references \= \*\* did not work with wf-amplicon, does not support 2 references mapped to same sample  
