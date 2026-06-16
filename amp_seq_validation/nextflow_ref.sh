@@ -18,7 +18,7 @@ grep "NW_022098051" GCF_002288925.2_ASM228892v3_genomic.fna
 samtools faidx GCF_002288925.2_ASM228892v3_genomic.fna \
     NW_022098051.1:7066550-7072506 > parent_reference.fna
 
-# Retrogene 1 — minus strand, reverse complement required
+# Retrogene 1 — minus strand, reverse complement required since samtools faidx extracts sequence in the assembly/scaffold’s forward coordinate orientation by default
 # Also add 150bp flanks for B primer set
 samtools faidx --reverse-complement GCF_002288925.2_ASM228892v3_genomic.fna \
     NW_022098045.1:8167847-8168931 > retrogene1B_reference.fna

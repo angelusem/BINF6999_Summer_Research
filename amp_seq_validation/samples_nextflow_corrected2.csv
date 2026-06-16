@@ -1,0 +1,7 @@
+barcode,alias,type,ref
+barcode01,B12BelugaPCNA-AParent,test_sample,B12BelugaPCNA_AParent
+barcode02,B12BelugaPCNA-ARetrogenes,test_sample,B12BelugaPCNA_Retrogene1_exons B12BelugaPCNA_Retrogene2_exons
+barcode03,B12BelugaRetrogene1B,test_sample,B12BelugaRetrogene1B
+barcode04,B12BelugaRetrogene2B,test_sample,B12BelugaRetrogene2B
+barcode05,BlueWhaleRetrogenes,test_sample,BlueWhaleRetrogenes
+barcode06,BlueWhaleRetrogene2B,test_sample,BlueWhaleRetrogene2B
