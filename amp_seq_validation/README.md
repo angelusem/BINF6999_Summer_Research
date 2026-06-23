@@ -1,4 +1,5 @@
 # Amplicon Sequencing Validation of PCNA Copy Number in Beluga and Blue Whale
+
 The hypothesis is that beluga has 3 PCNA copies (1 parent gene \+ 2 retrogenes) and blue whale has 2 copies (1 parent gene \+ 1 retrogene). ddPCR on samples of beluga whale (B12) and blue whale confirmed the copy numbers and amplicon sequencing (ONT) was performed to characterise the individual copies at the sequence level. Analysis was run through the wf-amplicon workflow on Nextflow, through the AAC at the UoG. When performing variant calling, this first run used a consensus sequence from the provided samples as a reference for each amplicon to map against: “do any reads differ (and where) from the average of all reads” \- unsure about utility.
 
 Objective: re-run amplicon workflow and variant calling using reference genome sequences: “how does individual B12 \+ our blue whale sample differ from reference genome”
@@ -63,27 +64,33 @@ The flanking regions are unique to each insertion site, making these assays copy
 
 wf- amplicon pipeline: input raw reads → aligned to a short target reference → Medaka for polished consensus sequence → variant calling
 
+\*\* Issue \#1 multiple amplicons per barcode are supported but only if they are different enough. It is possible that with 95% sequence homology, retrogene1 (R1) and 2 (R2) are too similar to be pooled together in ARetrogenes sample.
 
-\*\* Issue \#1 reference.fasta needed requires extracted sequences from the reference genome. Script used is saved inside folder as nextflow_ref.sh
-\*\* Issue \#2 multiple amplicons per barcode are supported but only if they are different enough. It is possible that with 95% sequence homology, retrogene1 (R1) and 2 (R2) are too similar to be pooled together in ARetrogenes sample.
 * if ARetrogene primer set amplifies both R1 and R2 simultaneously from the same rxn then the resulting pool of reads is a mix of 2 distinct templates that are 95% similar to each other ⇒ different positions are \~ 5% of the 786 bp so \~ 38 positions, at these positions Medaka will see roughly a 50/50 split of 2 alleles. Haploid variant caller interprets this 50/50 split as noise and wont call 2 alleles confidently versus at the 95% where R1 and R2 agree it will be confident that there is no variant  
 * options:  
-  * use 2 references \= \*\* did not work with wf-amplicon, does not support 2 references mapped to same sample  
-  * amplicon “demultiplexing” by known paralog specific variants from correctly referenced Retrogene1A and 1B  
-  * use a variant caller capable of resolving 2 distinct haplotypes from a mixed read pool
+  * use 2 references   
+  * amplicon “demultiplexing” by known paralog specific variants from correctly referenced Retrogene1A and 1B or use a variant caller capable of resolving 2 distinct haplotypes from a mixed read pool \*\* ruled out since we want this sample to reflect both retrogenes (can serve as a control)
 
 *28 May 2026:* troubleshooting pipeline, running into errors relating to sample.csv input that stop its progress
 
-*2 June 2026:* re-ran pipeline successfully with sample.csv. barcodes were assigned uniquely to each. For ARetrogenes sample, retrogene1 exon sequence was used. need to look into downstream analysis.
+*2 June 2026:* re-ran pipeline successfully with sample.csv. barcodes were assigned uniquely to each. For ARetrogenes sample, retrogene1 exon sequence was mapped against, seems to be because of higher similarity in the sample used to retrogene1 cds extracted from NCBI.
 
-**Interpretation of results:**
+*11 June 2026:*
 
-**Variant calling:** no results for retrogene with flanking regions and blue whale amplicons
+* In investigating the utility of running a separate analysis for variant calling, minimap2 alone seems to be sufficient to make variant calls, Clair3 less suited for purposes  
+* exploring multi-mapping and high sequence identity between parent gene and retrogene- Candidates: Retroscan, Paraphase  
+* Consensus sequence \> any variants called either to average of all reads or the extracted reference sequence in terms of information gleaned.  
+* Re-ran analysis with switched barcodes 
 
-**Next steps**
+*22 June 2026*: re-ran analyses with a chromosome level assembly for beluga, tried switching references to sample mapping for retrogene2B samples.
 
-* investigating the utility of running a separate analysis for variant calling using minimap2 for alignment and then Clair3 for variant calling  
-* exploring multi-mapping and high sequence identity between parent gene and retrogene- are there specific tools for my purposes  
-* confirm that cutadapt recommended by prof. Taylor would not be suited for purposes of “correct” variant calling with the sample that was intended to “pull out” both retrogenes 1 and 2 in beluga whale (used the same primers for both of them)
+**Results (to date)**
+
+* wf-amplicon generated consensus sequences for all targets, **0 Ns** \=\> complete consensus  
+* The workflow VCFs contained no variant records, but direct Medaka consensus/reference comparison identified sequence differences. Recorded in consensus\_vs\_reference\_differences.csv  
+  * Most targets had few differences, while B12BelugaRetrogene2B and BlueWhaleRetrogene2B each had 35 differences from their assigned references. For B12BelugaRetrogene2B, 31 differences were in the retrogene body, 3 in the upstream flank, and 1 in the downstream flank.Possible explanations: true B12 vs RefSeq variation, amplification of an unexpected PCNA-like/paralogous target, barcode/sample-labeling issues, or complications from high similarity among PCNA retrogenes.  
+  * On further examination: When each Retrogene2B sample is mapped to its same-named reference, both samples show a large number of high-confidence variants. When the 2B references are switched while keeping the true physical sample aliases, the number of variants called drops sharply.  
+* IGV inspection of the pooled B12BelugaPCNA-ARetrogenes sample showed high-depth coverage. Some inspected sites had near-unanimous support for one base, while at least one showed an approximately balanced two-base pattern. This is consistent with what we would expect with mixed retrogene templates in the pooled A-retrogene amplicon.Confirmation would require checking whether the split bases correspond to known retrogene 1 vs retrogene 2 diagnostic sites.  
+* IGV inspection of the B12BelugaPCNA-AParent sample showed higher read coverage in areas, consistent with the expectation of 2 duplications
 
 
