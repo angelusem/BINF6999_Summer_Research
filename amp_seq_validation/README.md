@@ -83,7 +83,13 @@ wf- amplicon pipeline: input raw reads â†’ aligned to a short target reference â
 * Re-ran analysis with switched barcodes 
 
 *22 June 2026*: re-ran analyses with a chromosome level assembly for beluga, tried switching references to sample mapping for retrogene2B samples.
+
 *02 July 2026- 06 July 2026*: re-ran amplicon-sequencing workflow with curated references for further investigation into potential sample mismatch for retrogene2 samples.  
+
+*07 July 2026 - 12 July 2026*: additional samples investigated to confirm suspicion regarding retrogene 2 results for beluga and blue whale
+
+*13 July - 17 July 2026*: North Atlantic Right Whale and Bottlenose dolphin samples sequenced and evaluated. consensus sequence generated using 3 different workflow modes in wf-amplicon to perform comparison
+
 **Results (to date)**
 
 * wf-amplicon generated consensus sequences for all targets, **0 Ns** \=\> complete consensus  
@@ -93,5 +99,5 @@ wf- amplicon pipeline: input raw reads â†’ aligned to a short target reference â
 * IGV inspection of the pooled B12BelugaPCNA-ARetrogenes sample showed high-depth coverage. Some inspected sites had near-unanimous support for one base, while at least one showed an approximately balanced two-base pattern. This is consistent with what we would expect with mixed retrogene templates in the pooled A-retrogene amplicon.Confirmation would require checking whether the split bases correspond to known retrogene 1 vs retrogene 2 diagnostic sites.  
 * IGV inspection of the B12BelugaPCNA-AParent sample showed higher read coverage in areas, consistent with the expectation of 2 duplications
 * re-run of additional retrogene2 samples: all three beluga retrogene consensus sequences match cleanly to the reference, blue whale sample maps to reference with ~ 11 variants called in the .vcf file. Aligns with prior theory that sample labels may have been mismatched
-
+* NR whale samples did not possess many variants compared to reference, whereas dolphin sample designed to be a pool of both retrogenes did. undergoing further investigation.
 
