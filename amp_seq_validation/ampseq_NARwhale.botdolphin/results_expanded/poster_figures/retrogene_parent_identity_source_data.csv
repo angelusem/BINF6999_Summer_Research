@@ -1,0 +1,5 @@
+species,locus,percent_identity,substitutions,gap_columns,compared_nucleotides
+NARW,PCNA-like,97.70992366412214,18,0,786
+Beluga,Retrogene 1,98.98089171974522,8,1,785
+Beluga,Retrogene 2,96.43765903307887,28,0,786
+Blue whale,Retrogene 2,97.9643765903308,16,0,786

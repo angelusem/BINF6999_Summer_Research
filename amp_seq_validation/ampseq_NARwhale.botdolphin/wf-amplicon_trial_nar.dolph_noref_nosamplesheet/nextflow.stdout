@@ -1,0 +1,107 @@
+N E X T F L O W  ~  version 23.04.2
+Launching `/mnt/c/Users/angel/epi2melabs/workflows/epi2me-labs/wf-amplicon/v1.2.1/main.nf` [trial_nar_dolph_norefnosamplesheet] DSL2 - revision: 087ada567e
+
+[0;92m||||||||||   [0m[2m_____ ____ ___ ____  __  __ _____
+[0;92m||||||||||  [0m[2m| ____|  _ \_ _|___ \|  \/  | ____|
+[0;33m|||||       [0m[2m|  _| | |_) | |  __) | |\/| |  _|
+[0;33m|||||       [0m[2m| |___|  __/| | / __/| |  | | |__
+[0;94m||||||||||  [0m[2m|_____|_|  |___|_____|_|  |_|_____|
+[0;94m||||||||||  [0m[1mwf-amplicon v1.2.1[0m
+[2m--------------------------------------------------------------------------------[0m
+[1mCore Nextflow options[0m
+  [0;34mrunName        : [0;32mtrial_nar_dolph_norefnosamplesheet[0m
+  [0;34mcontainerEngine: [0;32mdocker[0m
+  [0;34mlaunchDir      : [0;32m/mnt/c/Users/angel/epi2melabs/instances/wf-amplicon_01KXNT60SDWMZ1YD3KQ6RT5D9E[0m
+  [0;34mworkDir        : [0;32m/mnt/c/Users/angel/epi2melabs/instances/wf-amplicon_01KXNT60SDWMZ1YD3KQ6RT5D9E/work[0m
+  [0;34mprojectDir     : [0;32m/mnt/c/Users/angel/epi2melabs/workflows/epi2me-labs/wf-amplicon/v1.2.1[0m
+  [0;34muserName       : [0;32mepi2mewsl[0m
+  [0;34mprofile        : [0;32mstandard[0m
+  [0;34mconfigFiles    : [0;32m/mnt/c/Users/angel/epi2melabs/workflows/epi2me-labs/wf-amplicon/v1.2.1/nextflow.config[0m
+
+[1mInput Options[0m
+  [0;34mfastq          : [0;32m/mnt/c/Users/angel/Downloads/Research project summer/ampseq_NARwhale.botdolphin/originalrun_notref_amplicon_variants/fastq[0m
+
+[1mOutput Options[0m
+  [0;34mout_dir        : [0;32m/mnt/c/Users/angel/epi2melabs/instances/wf-amplicon_01KXNT60SDWMZ1YD3KQ6RT5D9E/output[0m
+  [0;34migv            : [0;32mtrue[0m
+
+[1mMiscellaneous Options[0m
+  [0;34mstore_dir      : [0;32m/mnt/c/Users/angel/epi2melabs/data[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+[2m--------------------------------------------------------------------------------[0m
+If you use epi2me-labs/wf-amplicon for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+
+[2m--------------------------------------------------------------------------------[0m
+This is epi2me-labs/wf-amplicon v1.2.1.
+[2m--------------------------------------------------------------------------------[0m
+Searching input for [.fastq, .fastq.gz, .fq, .fq.gz] files.
+[40/0239d4] Submitted process > pipeline:getVersions
+[50/954f30] Submitted process > fastcat (3)
+[00/ec01b4] Submitted process > pipeline:getParams
+[07/a5fa70] Submitted process > fastcat (2)
+[48/387c98] Submitted process > pipeline:subsetReads (1)
+[12/3d9561] Submitted process > fastcat (1)
+[62/e446cd] Submitted process > pipeline:subsetReads (2)
+[78/20e8c0] Submitted process > pipeline:subsetReads (3)
+[86/580298] Submitted process > pipeline:porechop (1)
+[c1/1a9708] Submitted process > pipeline:porechop (2)
+[f1/e4fc58] Submitted process > pipeline:addMedakaToVersionsFile
+[a0/0244bb] Submitted process > pipeline:porechop (3)
+[66/f5b43e] Submitted process > pipeline:deNovoPipeline_asm:miniasm (1)
+[55/ff41aa] Submitted process > pipeline:deNovoPipeline_asm:miniasm (2)
+[13/34dfb8] Submitted process > pipeline:deNovoPipeline_asm:miniasm (3)
+[fd/9f61fe] Submitted process > pipeline:deNovoPipeline_spoa:spoa (1)
+[c0/e43cb8] Submitted process > pipeline:deNovoPipeline_spoa:spoa (2)
+[8c/fbd530] Submitted process > pipeline:deNovoPipeline_spoa:alignDraft (1)
+[f2/0ffadd] Submitted process > pipeline:deNovoPipeline_spoa:mosdepthPerBase (1)
+[e6/5483c4] Submitted process > pipeline:deNovoPipeline_spoa:bamstatsDraft (1)
+[df/d1b136] Submitted process > pipeline:deNovoPipeline_spoa:spoa (3)
+[09/53bd2b] Submitted process > pipeline:deNovoPipeline_spoa:alignDraft (2)
+[c3/e1e204] Submitted process > pipeline:deNovoPipeline_spoa:bamstatsDraft (2)
+[b6/ec5465] Submitted process > pipeline:deNovoPipeline_spoa:mosdepthPerBase (2)
+[78/e4bd42] Submitted process > pipeline:deNovoPipeline_spoa:medakaInference (1)
+[b7/c6c0f9] Submitted process > pipeline:deNovoPipeline_spoa:alignDraft (3)
+[b5/0aba2c] Submitted process > pipeline:deNovoPipeline_spoa:bamstatsDraft (3)
+[33/30e7c4] Submitted process > pipeline:deNovoPipeline_spoa:mosdepthPerBase (3)
+[e5/d62a97] Submitted process > pipeline:deNovoPipeline_spoa:medakaInference (2)
+[e6/2028f9] Submitted process > pipeline:deNovoPipeline_spoa:medakaInference (3)
+[dc/f69d34] Submitted process > pipeline:deNovoPipeline_spoa:medakaStitch (1)
+[39/f9726d] Submitted process > pipeline:deNovoPipeline_spoa:medakaStitch (2)
+[fc/5edf4c] Submitted process > pipeline:deNovoPipeline_spoa:trimAndQC (1)
+[ea/960761] Submitted process > pipeline:deNovoPipeline_spoa:medakaStitch (3)
+[5b/5c2190] Submitted process > pipeline:deNovoPipeline_spoa:trimAndQC (2)
+[1c/608eea] Submitted process > pipeline:deNovoPipeline_spoa:alignPolished (1)
+[e7/f2ec82] Submitted process > pipeline:deNovoPipeline_spoa:trimAndQC (3)
+[8d/6c8404] Submitted process > pipeline:deNovoPipeline_spoa:alignPolished (2)
+[25/f13aea] Submitted process > pipeline:deNovoPipeline_spoa:bamstatsPolished (1)
+[71/85e5ff] Submitted process > pipeline:deNovoPipeline_spoa:mosdepthWindows (1)
+[6a/bd6d65] Submitted process > pipeline:deNovoPipeline_spoa:bamstatsPolished (2)
+[07/89f10b] Submitted process > pipeline:deNovoPipeline_spoa:mosdepthWindows (2)
+[06/f67d2d] Submitted process > pipeline:concatTSVs (3)
+[d6/05491e] Submitted process > pipeline:concatTSVs (1)
+[c3/969794] Submitted process > pipeline:concatTSVs (2)
+[00/ebd960] Submitted process > pipeline:deNovoPipeline_spoa:alignPolished (3)
+[5e/2130f2] Submitted process > pipeline:collectFilesInDir (1)
+[17/49e43c] Submitted process > pipeline:collectFilesInDir (2)
+[28/54cc9e] Submitted process > pipeline:deNovoPipeline_spoa:bamstatsPolished (3)
+[68/343b07] Submitted process > pipeline:deNovoPipeline_spoa:mosdepthWindows (3)
+[84/785bba] Submitted process > pipeline:catFastqIntoFasta
+[c5/57c178] Submitted process > pipeline:collectFilesInDir (3)
+[7c/5acc7b] Submitted process > publish (3)
+[f6/b6e5de] Submitted process > publish (2)
+[b8/f0279b] Submitted process > publish (6)
+[ba/8859a3] Submitted process > publish (5)
+[d7/519ae9] Submitted process > publish (4)
+[f9/a4a458] Submitted process > publish (1)
+[7b/1fbd4e] Submitted process > publish (9)
+[01/4d7d8a] Submitted process > publish (8)
+[78/4c579a] Submitted process > publish (10)
+[ce/40a510] Submitted process > publish (11)
+[e8/15cfaf] Submitted process > publish (7)
+[55/9515e6] Submitted process > pipeline:configure_igv (1)
+[b2/130228] Submitted process > pipeline:makeReport

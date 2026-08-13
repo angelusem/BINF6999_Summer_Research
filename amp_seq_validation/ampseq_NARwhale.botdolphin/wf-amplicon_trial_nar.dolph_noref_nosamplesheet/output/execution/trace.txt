@@ -1,0 +1,66 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+2	00/ec01b4	5131	pipeline:getParams	COMPLETED	0	2026-07-16 15:55:31.340	3.1s	63ms	35.3%	0	0	57.5 KB	2.1 KB
+5	50/954f30	5111	fastcat (3)	COMPLETED	0	2026-07-16 15:55:31.208	4s	936ms	43.1%	2.8 MB	4.2 MB	676.4 KB	543 KB
+4	07/a5fa70	5760	fastcat (2)	COMPLETED	0	2026-07-16 15:55:35.369	2.6s	600ms	77.8%	2.8 MB	4.2 MB	2.3 MB	2.2 MB
+3	12/3d9561	6251	fastcat (1)	COMPLETED	0	2026-07-16 15:55:38.014	2.5s	542ms	79.2%	2.8 MB	4.2 MB	2 MB	1.9 MB
+6	48/387c98	5917	pipeline:subsetReads (1)	COMPLETED	0	2026-07-16 15:55:36.420	8.1s	6.1s	85.0%	64.1 MB	797.9 MB	13.9 MB	9.3 MB
+7	62/e446cd	6740	pipeline:subsetReads (2)	COMPLETED	0	2026-07-16 15:55:40.590	9.1s	6.9s	78.8%	65.6 MB	801.3 MB	25.7 MB	10.5 MB
+8	78/20e8c0	6826	pipeline:subsetReads (3)	COMPLETED	0	2026-07-16 15:55:40.896	8.9s	6.7s	79.8%	66.1 MB	801.3 MB	24.2 MB	10.3 MB
+9	86/580298	8280	pipeline:porechop (1)	COMPLETED	0	2026-07-16 15:55:49.788	10.7s	9s	179.0%	106.8 MB	556.1 MB	2.4 MB	1.9 MB
+1	40/0239d4	5090	pipeline:getVersions	COMPLETED	0	2026-07-16 15:55:31.041	49.1s	46s	95.1%	415.6 MB	1.1 GB	67.5 MB	28.5 MB
+13	f1/e4fc58	11528	pipeline:addMedakaToVersionsFile	COMPLETED	0	2026-07-16 15:56:21.206	13.6s	11.8s	82.3%	319.3 MB	769.7 MB	33.6 MB	4.3 KB
+10	c1/1a9708	9487	pipeline:porechop (2)	COMPLETED	0	2026-07-16 15:56:00.563	47.7s	45.9s	189.4%	138.2 MB	617.2 MB	4.5 MB	3.8 MB
+11	a0/0244bb	13240	pipeline:porechop (3)	COMPLETED	0	2026-07-16 15:56:48.300	41.8s	40.1s	193.1%	133 MB	616.8 MB	4.2 MB	3.5 MB
+12	66/f5b43e	15691	pipeline:deNovoPipeline_asm:miniasm (1)	COMPLETED	0	2026-07-16 15:57:30.222	3.3s	1.4s	263.6%	23.4 MB	403.6 MB	2.2 MB	1.9 MB
+14	55/ff41aa	16010	pipeline:deNovoPipeline_asm:miniasm (2)	COMPLETED	0	2026-07-16 15:57:33.549	26.8s	24.8s	290.2%	96.8 MB	419.6 MB	64 MB	62.9 MB
+15	13/34dfb8	17879	pipeline:deNovoPipeline_asm:miniasm (3)	COMPLETED	0	2026-07-16 15:58:00.353	16.5s	15s	287.2%	63.4 MB	403.5 MB	47.7 MB	46.7 MB
+16	fd/9f61fe	19528	pipeline:deNovoPipeline_spoa:spoa (1)	COMPLETED	0	2026-07-16 15:58:16.989	5.9s	4.3s	86.4%	83.8 MB	304.3 MB	4.1 MB	5.6 KB
+19	8c/fbd530	20010	pipeline:deNovoPipeline_spoa:alignDraft (1)	COMPLETED	0	2026-07-16 15:58:23.978	1.9s	252ms	80.2%	11.4 MB	3.9 GB	629.2 KB	443.4 KB
+21	f2/0ffadd	20368	pipeline:deNovoPipeline_spoa:mosdepthPerBase (1)	COMPLETED	0	2026-07-16 15:58:26.956	2.4s	194ms	30.4%	2.6 MB	3.8 MB	258 KB	7.5 KB
+20	e6/5483c4	20376	pipeline:deNovoPipeline_spoa:bamstatsDraft (1)	COMPLETED	0	2026-07-16 15:58:27.050	2.5s	631ms	73.5%	18.4 MB	324.9 MB	181.8 KB	32.8 KB
+17	c0/e43cb8	19880	pipeline:deNovoPipeline_spoa:spoa (2)	COMPLETED	0	2026-07-16 15:58:22.934	15.3s	13.6s	97.2%	84.9 MB	304.2 MB	4.3 MB	1.3 KB
+23	09/53bd2b	21397	pipeline:deNovoPipeline_spoa:alignDraft (2)	COMPLETED	0	2026-07-16 15:58:39.344	2s	399ms	147.7%	9.1 MB	239.4 MB	2.1 MB	1.7 MB
+26	b6/ec5465	21757	pipeline:deNovoPipeline_spoa:mosdepthPerBase (2)	COMPLETED	0	2026-07-16 15:58:42.520	2.6s	184ms	32.9%	4.9 MB	17.2 MB	656.1 KB	14.9 KB
+24	c3/e1e204	21748	pipeline:deNovoPipeline_spoa:bamstatsDraft (2)	COMPLETED	0	2026-07-16 15:58:42.411	3.4s	1s	49.3%	32.8 MB	325.7 MB	464.2 KB	186.2 KB
+18	df/d1b136	21241	pipeline:deNovoPipeline_spoa:spoa (3)	COMPLETED	0	2026-07-16 15:58:38.302	14.5s	12.8s	97.0%	89.2 MB	307.8 MB	4.3 MB	1.3 KB
+27	b7/c6c0f9	22825	pipeline:deNovoPipeline_spoa:alignDraft (3)	COMPLETED	0	2026-07-16 15:58:53.875	2s	388ms	134.9%	9.5 MB	239.4 MB	1.9 MB	1.5 MB
+28	b5/0aba2c	23179	pipeline:deNovoPipeline_spoa:bamstatsDraft (3)	COMPLETED	0	2026-07-16 15:58:56.880	2.7s	894ms	72.5%	35.4 MB	325.7 MB	434.6 KB	159.3 KB
+29	33/30e7c4	23570	pipeline:deNovoPipeline_spoa:mosdepthPerBase (3)	COMPLETED	0	2026-07-16 15:58:59.647	2.1s	169ms	41.5%	5 MB	17.2 MB	633.1 KB	14.7 KB
+22	78/e4bd42	22669	pipeline:deNovoPipeline_spoa:medakaInference (1)	COMPLETED	0	2026-07-16 15:58:52.831	11.1s	9.5s	105.5%	342.3 MB	1.1 GB	38.2 MB	1.6 MB
+25	e5/d62a97	23974	pipeline:deNovoPipeline_spoa:medakaInference (2)	COMPLETED	0	2026-07-16 15:59:03.972	9.6s	7.8s	105.0%	344.6 MB	1.1 GB	38.4 MB	1.6 MB
+30	e6/2028f9	24547	pipeline:deNovoPipeline_spoa:medakaInference (3)	COMPLETED	0	2026-07-16 15:59:13.618	9.3s	7.7s	105.2%	345.2 MB	1.1 GB	38.4 MB	1.6 MB
+31	dc/f69d34	25096	pipeline:deNovoPipeline_spoa:medakaStitch (1)	COMPLETED	0	2026-07-16 15:59:22.920	9.4s	7.7s	97.9%	322 MB	976.5 MB	33.7 MB	8.9 KB
+34	fc/5edf4c	25826	pipeline:deNovoPipeline_spoa:trimAndQC (1)	COMPLETED	0	2026-07-16 15:59:33.410	7s	5.2s	97.0%	65.7 MB	801.3 MB	11.3 MB	8.9 MB
+32	39/f9726d	25669	pipeline:deNovoPipeline_spoa:medakaStitch (2)	COMPLETED	0	2026-07-16 15:59:32.371	9.6s	7.9s	97.4%	322.2 MB	976.5 MB	33.7 MB	7.5 KB
+36	5b/5c2190	26798	pipeline:deNovoPipeline_spoa:trimAndQC (2)	COMPLETED	0	2026-07-16 15:59:43.067	7.2s	5.2s	98.5%	71.9 MB	801.2 MB	11.3 MB	8.9 MB
+33	ea/960761	26642	pipeline:deNovoPipeline_spoa:medakaStitch (3)	COMPLETED	0	2026-07-16 15:59:42.031	9.8s	8.1s	98.2%	321.7 MB	976.5 MB	33.7 MB	7.6 KB
+35	1c/608eea	27669	pipeline:deNovoPipeline_spoa:alignPolished (1)	COMPLETED	0	2026-07-16 15:59:51.893	2.1s	237ms	96.3%	2.6 MB	3.8 MB	632.3 KB	445.5 KB
+37	8d/6c8404	28009	pipeline:deNovoPipeline_spoa:alignPolished (2)	COMPLETED	0	2026-07-16 15:59:54.019	2.3s	469ms	127.3%	8.4 MB	303.4 MB	2.1 MB	1.7 MB
+39	71/85e5ff	28380	pipeline:deNovoPipeline_spoa:mosdepthWindows (1)	COMPLETED	0	2026-07-16 15:59:56.553	2.1s	268ms	36.7%	2.6 MB	3.8 MB	308.1 KB	16.7 KB
+40	25/f13aea	28373	pipeline:deNovoPipeline_spoa:bamstatsPolished (1)	COMPLETED	0	2026-07-16 15:59:56.511	2.4s	517ms	72.9%	2.5 MB	3.8 MB	181.8 KB	34.8 KB
+38	e7/f2ec82	27831	pipeline:deNovoPipeline_spoa:trimAndQC (3)	COMPLETED	0	2026-07-16 15:59:52.966	7.9s	5.7s	95.1%	65 MB	799 MB	11.3 MB	8.9 MB
+42	07/89f10b	28972	pipeline:deNovoPipeline_spoa:mosdepthWindows (2)	COMPLETED	0	2026-07-16 15:59:58.966	2.4s	300ms	30.5%	2.5 MB	3.8 MB	706.2 KB	40.2 KB
+41	6a/bd6d65	28936	pipeline:deNovoPipeline_spoa:bamstatsPolished (2)	COMPLETED	0	2026-07-16 15:59:58.717	2.7s	803ms	53.0%	2.4 MB	3.8 MB	464.2 KB	207.2 KB
+46	06/f67d2d	29462	pipeline:concatTSVs (3)	COMPLETED	0	2026-07-16 16:00:00.998	2.3s	113ms	43.9%	2.6 MB	3.8 MB	61.8 KB	319 B
+44	d6/05491e	29516	pipeline:concatTSVs (1)	COMPLETED	0	2026-07-16 16:00:01.389	2.3s	123ms	44.7%	2.5 MB	3.8 MB	61.8 KB	316 B
+45	c3/969794	29525	pipeline:concatTSVs (2)	COMPLETED	0	2026-07-16 16:00:01.441	2.3s	113ms	50.6%	2.8 MB	3.8 MB	61.8 KB	317 B
+43	00/ebd960	29999	pipeline:deNovoPipeline_spoa:alignPolished (3)	COMPLETED	0	2026-07-16 16:00:03.367	2.2s	429ms	136.8%	2.6 MB	3.8 MB	1.9 MB	1.5 MB
+47	5e/2130f2	30087	pipeline:collectFilesInDir (1)	COMPLETED	0	2026-07-16 16:00:03.894	2.1s	40ms	81.1%	2.5 MB	3.8 MB	66.8 KB	173 B
+48	17/49e43c	30104	pipeline:collectFilesInDir (2)	COMPLETED	0	2026-07-16 16:00:03.977	2.1s	53ms	43.6%	2.5 MB	3.8 MB	66.9 KB	173 B
+49	68/343b07	30668	pipeline:deNovoPipeline_spoa:mosdepthWindows (3)	COMPLETED	0	2026-07-16 16:00:06.059	2.1s	302ms	34.2%	2.5 MB	3.8 MB	683.1 KB	37.7 KB
+50	28/54cc9e	30618	pipeline:deNovoPipeline_spoa:bamstatsPolished (3)	COMPLETED	0	2026-07-16 16:00:05.819	2.5s	721ms	57.6%	16.8 MB	325.7 MB	434.5 KB	175.1 KB
+52	84/785bba	31111	pipeline:catFastqIntoFasta	COMPLETED	0	2026-07-16 16:00:08.533	1.9s	171ms	77.6%	2.6 MB	3.8 MB	90.4 KB	7.2 KB
+51	c5/57c178	31123	pipeline:collectFilesInDir (3)	COMPLETED	0	2026-07-16 16:00:08.606	2s	46ms	40.0%	2.5 MB	3.8 MB	66.8 KB	173 B
+55	7c/5acc7b	31550	publish (3)	COMPLETED	0	2026-07-16 16:00:10.617	2.8s	36ms	45.3%	0	0	60.9 KB	173 B
+54	f6/b6e5de	31559	publish (2)	COMPLETED	0	2026-07-16 16:00:10.694	2.7s	30ms	61.5%	0	0	60.9 KB	173 B
+58	b8/f0279b	31582	publish (6)	COMPLETED	0	2026-07-16 16:00:10.766	2.8s	38ms	52.6%	0	0	60.9 KB	173 B
+57	ba/8859a3	31610	publish (5)	COMPLETED	0	2026-07-16 16:00:10.849	2.9s	60ms	69.2%	0	0	60.9 KB	173 B
+56	d7/519ae9	31644	publish (4)	COMPLETED	0	2026-07-16 16:00:10.922	2.9s	38ms	85.7%	0	0	60.9 KB	173 B
+53	f9/a4a458	31676	publish (1)	COMPLETED	0	2026-07-16 16:00:10.999	2.9s	33ms	65.2%	0	0	60.9 KB	173 B
+61	7b/1fbd4e	32556	publish (9)	COMPLETED	0	2026-07-16 16:00:13.413	2.3s	20ms	62.1%	0	0	60.9 KB	173 B
+60	01/4d7d8a	32575	publish (8)	COMPLETED	0	2026-07-16 16:00:13.498	2.3s	33ms	83.3%	0	0	60.9 KB	173 B
+62	78/4c579a	32614	publish (10)	COMPLETED	0	2026-07-16 16:00:13.592	2.3s	23ms	81.1%	0	0	60.9 KB	173 B
+63	ce/40a510	32689	publish (11)	COMPLETED	0	2026-07-16 16:00:13.835	2.4s	33ms	62.5%	0	0	60.9 KB	173 B
+59	e8/15cfaf	32703	publish (7)	COMPLETED	0	2026-07-16 16:00:13.901	2.5s	58ms	45.3%	0	0	60.9 KB	173 B
+65	55/9515e6	32735	pipeline:configure_igv (1)	COMPLETED	0	2026-07-16 16:00:13.999	3.6s	1.4s	56.9%	16 MB	20.7 MB	1.3 MB	986.5 KB
+64	b2/130228	33577	pipeline:makeReport	COMPLETED	0	2026-07-16 16:00:15.981	51.3s	49.4s	92.9%	423.2 MB	1.4 GB	59.6 MB	32 MB

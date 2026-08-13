@@ -1,0 +1,4 @@
+barcode,alias,type,ref
+barcode14,NARightWhaleRetrogeneB,test_sample,NARW_RetrogeneB_full
+barcode15,NARightwhalePCNAEX1Ex6RetrogeneA,test_sample,NARW_PCNAEX1Ex6_RetrogeneA_full
+barcode16,BDolphinPCNAEx1Ex6RetrogenesB,test_sample,BDOL_PCNAEx1Ex6_RetrogenesB_full

@@ -1,0 +1,106 @@
+N E X T F L O W  ~  version 23.04.2
+Launching `/mnt/c/Users/angel/epi2melabs/workflows/epi2me-labs/wf-amplicon/v1.2.1/main.nf` [nrw_bdol_rerun_originalrefs] DSL2 - revision: 087ada567e
+
+[0;92m||||||||||   [0m[2m_____ ____ ___ ____  __  __ _____
+[0;92m||||||||||  [0m[2m| ____|  _ \_ _|___ \|  \/  | ____|
+[0;33m|||||       [0m[2m|  _| | |_) | |  __) | |\/| |  _|
+[0;33m|||||       [0m[2m| |___|  __/| | / __/| |  | | |__
+[0;94m||||||||||  [0m[2m|_____|_|  |___|_____|_|  |_|_____|
+[0;94m||||||||||  [0m[1mwf-amplicon v1.2.1[0m
+[2m--------------------------------------------------------------------------------[0m
+[1mCore Nextflow options[0m
+  [0;34mrunName        : [0;32mnrw_bdol_rerun_originalrefs[0m
+  [0;34mcontainerEngine: [0;32mdocker[0m
+  [0;34mlaunchDir      : [0;32m/mnt/c/Users/angel/epi2melabs/instances/wf-amplicon_01KXQ0GHJ55Z2EEAR55CP0DMHF[0m
+  [0;34mworkDir        : [0;32m/mnt/c/Users/angel/epi2melabs/instances/wf-amplicon_01KXQ0GHJ55Z2EEAR55CP0DMHF/work[0m
+  [0;34mprojectDir     : [0;32m/mnt/c/Users/angel/epi2melabs/workflows/epi2me-labs/wf-amplicon/v1.2.1[0m
+  [0;34muserName       : [0;32mepi2mewsl[0m
+  [0;34mprofile        : [0;32mstandard[0m
+  [0;34mconfigFiles    : [0;32m/mnt/c/Users/angel/epi2melabs/workflows/epi2me-labs/wf-amplicon/v1.2.1/nextflow.config[0m
+
+[1mInput Options[0m
+  [0;34mfastq          : [0;32m/mnt/c/Users/angel/Downloads/Research project summer/ampseq_NARwhale.botdolphin/originalrun_notref_amplicon_variants/fastq[0m
+  [0;34mreference      : [0;32m/mnt/c/Users/angel/Downloads/Research project summer/ampseq_NARwhale.botdolphin/reference_original.fasta[0m
+
+[1mSample Options[0m
+  [0;34msample_sheet   : [0;32m/mnt/c/Users/angel/Downloads/Research project summer/ampseq_NARwhale.botdolphin/samples_narw_bdolphin_reference_rerun.csv[0m
+
+[1mOutput Options[0m
+  [0;34mout_dir        : [0;32m/mnt/c/Users/angel/epi2melabs/instances/wf-amplicon_01KXQ0GHJ55Z2EEAR55CP0DMHF/output[0m
+  [0;34migv            : [0;32mtrue[0m
+
+[1mMiscellaneous Options[0m
+  [0;34mstore_dir      : [0;32m/mnt/c/Users/angel/epi2melabs/data[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+[2m--------------------------------------------------------------------------------[0m
+If you use epi2me-labs/wf-amplicon for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+
+[2m--------------------------------------------------------------------------------[0m
+This is epi2me-labs/wf-amplicon v1.2.1.
+[2m--------------------------------------------------------------------------------[0m
+Searching input for [.fastq, .fastq.gz, .fq, .fq.gz] files.
+[68/844635] Submitted process > validate_sample_sheet
+[08/0ab566] Submitted process > pipeline:getVersions
+[2e/5336a5] Submitted process > pipeline:variantCallingPipeline:sanitizeRefFile
+[7e/5b43f7] Submitted process > pipeline:getParams
+[2a/a7ab71] Submitted process > fastcat (1)
+[b7/8e3b5d] Submitted process > fastcat (2)
+[06/25d15f] Submitted process > pipeline:subsetReads (1)
+[33/37c087] Submitted process > fastcat (3)
+[a6/b885e1] Submitted process > pipeline:subsetReads (2)
+[b8/5bb754] Submitted process > pipeline:subsetReads (3)
+[6d/f82ebc] Submitted process > pipeline:porechop (1)
+[32/6acb98] Submitted process > pipeline:porechop (2)
+[64/9593d0] Submitted process > pipeline:addMedakaToVersionsFile
+[3e/fc6794] Submitted process > pipeline:porechop (3)
+[d0/218005] Submitted process > pipeline:variantCallingPipeline:subsetRefFile (2)
+[30/713f0d] Submitted process > pipeline:variantCallingPipeline:subsetRefFile (1)
+[19/4fe352] Submitted process > pipeline:variantCallingPipeline:subsetRefFile (3)
+[73/3adb26] Submitted process > pipeline:variantCallingPipeline:alignReads (1)
+[48/33c477] Submitted process > pipeline:variantCallingPipeline:alignReads (2)
+[f3/b1d5dd] Submitted process > pipeline:variantCallingPipeline:bamstats (1)
+[ba/f304ff] Submitted process > pipeline:variantCallingPipeline:alignReads (3)
+[98/7cc090] Submitted process > pipeline:variantCallingPipeline:bamstats (2)
+[7a/7fd5ca] Submitted process > pipeline:variantCallingPipeline:mosdepth (1)
+[bd/7b70a0] Submitted process > pipeline:variantCallingPipeline:downsampleBAMforMedaka (1)
+[67/df6497] Submitted process > pipeline:variantCallingPipeline:mosdepth (2)
+[f4/e198c4] Submitted process > pipeline:variantCallingPipeline:bamstats (3)
+[39/8702fb] Submitted process > pipeline:variantCallingPipeline:mosdepth (3)
+[d0/edd73a] Submitted process > pipeline:variantCallingPipeline:concatMosdepthResultFiles (3)
+[f5/3e0644] Submitted process > pipeline:variantCallingPipeline:concatMosdepthResultFiles (1)
+[8d/363941] Submitted process > pipeline:variantCallingPipeline:concatMosdepthResultFiles (2)
+[fc/44c21e] Submitted process > pipeline:variantCallingPipeline:downsampleBAMforMedaka (2)
+[ab/e6f5fd] Submitted process > pipeline:variantCallingPipeline:downsampleBAMforMedaka (3)
+[54/ba8816] Submitted process > pipeline:variantCallingPipeline:medakaInference (1)
+[36/94fc2c] Submitted process > pipeline:variantCallingPipeline:medakaInference (2)
+[f8/1218be] Submitted process > pipeline:variantCallingPipeline:medakaInference (3)
+[48/16103e] Submitted process > pipeline:variantCallingPipeline:medakaVCF (2)
+[22/55333f] Submitted process > pipeline:variantCallingPipeline:medakaVCF (3)
+[08/48b472] Submitted process > pipeline:collectFilesInDir (1)
+[ec/da40b8] Submitted process > pipeline:variantCallingPipeline:medakaVCF (1)
+[73/b6435a] Submitted process > pipeline:collectFilesInDir (2)
+[ec/9e3d8f] Submitted process > publish (3)
+[4c/5c2f24] Submitted process > publish (4)
+[90/cdead3] Submitted process > publish (1)
+[c7/d49c18] Submitted process > publish (6)
+[1e/23e847] Submitted process > publish (2)
+[da/6c1210] Submitted process > publish (5)
+[42/fcadd1] Submitted process > publish (10)
+[d7/a73a3b] Submitted process > publish (7)
+[b7/6a125d] Submitted process > publish (9)
+[57/9ed451] Submitted process > publish (11)
+[da/601692] Submitted process > publish (8)
+[c1/55e650] Submitted process > publish (13)
+[91/0dbf22] Submitted process > publish (14)
+[89/4d0441] Submitted process > publish (12)
+[b0/1ce42c] Submitted process > publish (16)
+[f7/9acab6] Submitted process > publish (15)
+[79/8058a9] Submitted process > publish (17)
+[bf/59bee3] Submitted process > pipeline:configure_igv (1)
+[ca/ad39c8] Submitted process > pipeline:collectFilesInDir (3)
+[42/fc44ea] Submitted process > pipeline:makeReport

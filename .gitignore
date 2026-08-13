@@ -38,3 +38,17 @@ cetacean_PCNA_project/tools/dataformat
 __pycache__/
 *.pyc
 *.log
+# -------------------------
+# R and RStudio session files
+# -------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# -------------------------
+# Amplicon R project: large downloaded files
+# -------------------------
+amp_seq_validation/ampseq_NARwhale.botdolphin/refseq_rightwhale_bottlenose_rerun_20260713_135131/reference_genomes/
+amp_seq_validation/ampseq_NARwhale.botdolphin/20260708_amplicon_connor_bryant.zip

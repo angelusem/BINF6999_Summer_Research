@@ -1,0 +1,16 @@
+dataset,sequence_1,sequence_2,alignment_columns,compared_nucleotides,identical_nucleotides,substitutions,gap_columns,percent_identity
+retrogenes_only,NARW_B_PCNA_like_core,Bottlenose_PCNA_pseudogene1_core,786,785,754,31,1,96.05095541401273
+retrogenes_only,NARW_B_PCNA_like_core,Bottlenose_PCNA_pseudogene2_core,786,777,730,47,9,93.95109395109395
+retrogenes_only,NARW_B_PCNA_like_core,Beluga_retrogene1_core,786,785,757,28,1,96.43312101910828
+retrogenes_only,NARW_B_PCNA_like_core,Beluga_retrogene2_core,786,786,754,32,0,95.92875318066157
+retrogenes_only,NARW_B_PCNA_like_core,BlueWhale_retrogene2_core,786,786,766,20,0,97.45547073791349
+retrogenes_only,Bottlenose_PCNA_pseudogene1_core,Bottlenose_PCNA_pseudogene2_core,786,776,725,51,10,93.4278350515464
+retrogenes_only,Bottlenose_PCNA_pseudogene1_core,Beluga_retrogene1_core,786,785,771,14,0,98.21656050955414
+retrogenes_only,Bottlenose_PCNA_pseudogene1_core,Beluga_retrogene2_core,786,785,749,36,1,95.4140127388535
+retrogenes_only,Bottlenose_PCNA_pseudogene1_core,BlueWhale_retrogene2_core,786,785,757,28,1,96.43312101910828
+retrogenes_only,Bottlenose_PCNA_pseudogene2_core,Beluga_retrogene1_core,786,776,725,51,10,93.4278350515464
+retrogenes_only,Bottlenose_PCNA_pseudogene2_core,Beluga_retrogene2_core,786,777,743,34,9,95.62419562419562
+retrogenes_only,Bottlenose_PCNA_pseudogene2_core,BlueWhale_retrogene2_core,786,777,731,46,9,94.07979407979408
+retrogenes_only,Beluga_retrogene1_core,Beluga_retrogene2_core,786,785,749,36,1,95.4140127388535
+retrogenes_only,Beluga_retrogene1_core,BlueWhale_retrogene2_core,786,785,759,26,1,96.68789808917198
+retrogenes_only,Beluga_retrogene2_core,BlueWhale_retrogene2_core,786,786,755,31,0,96.05597964376591

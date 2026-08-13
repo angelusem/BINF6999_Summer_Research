@@ -1,0 +1,37 @@
+sequence_1,sequence_2,percent_identity
+NA right whale RG,Bottlenose RG 1 (NCBI),96.05095541401272
+NA right whale RG,Bottlenose RG 2 (NCBI),93.95109395109397
+NA right whale RG,Beluga RG 1,96.43312101910828
+NA right whale RG,Beluga RG 2,95.92875318066156
+NA right whale RG,Blue whale RG,97.45547073791349
+Bottlenose RG 1 (NCBI),Bottlenose RG 2 (NCBI),93.4278350515464
+Bottlenose RG 1 (NCBI),Beluga RG 1,98.21656050955414
+Bottlenose RG 1 (NCBI),Beluga RG 2,95.4140127388535
+Bottlenose RG 1 (NCBI),Blue whale RG,96.43312101910828
+Bottlenose RG 2 (NCBI),Beluga RG 1,93.4278350515464
+Bottlenose RG 2 (NCBI),Beluga RG 2,95.62419562419562
+Bottlenose RG 2 (NCBI),Blue whale RG,94.07979407979408
+Beluga RG 1,Beluga RG 2,95.4140127388535
+Beluga RG 1,Blue whale RG,96.68789808917198
+Beluga RG 2,Blue whale RG,96.05597964376592
+Bottlenose RG 1 (NCBI),NA right whale RG,96.05095541401272
+Bottlenose RG 2 (NCBI),NA right whale RG,93.95109395109397
+Beluga RG 1,NA right whale RG,96.43312101910828
+Beluga RG 2,NA right whale RG,95.92875318066156
+Blue whale RG,NA right whale RG,97.45547073791349
+Bottlenose RG 2 (NCBI),Bottlenose RG 1 (NCBI),93.4278350515464
+Beluga RG 1,Bottlenose RG 1 (NCBI),98.21656050955414
+Beluga RG 2,Bottlenose RG 1 (NCBI),95.4140127388535
+Blue whale RG,Bottlenose RG 1 (NCBI),96.43312101910828
+Beluga RG 1,Bottlenose RG 2 (NCBI),93.4278350515464
+Beluga RG 2,Bottlenose RG 2 (NCBI),95.62419562419562
+Blue whale RG,Bottlenose RG 2 (NCBI),94.07979407979408
+Beluga RG 2,Beluga RG 1,95.4140127388535
+Blue whale RG,Beluga RG 1,96.68789808917198
+Blue whale RG,Beluga RG 2,96.05597964376592
+NA right whale RG,NA right whale RG,100
+Bottlenose RG 1 (NCBI),Bottlenose RG 1 (NCBI),100
+Bottlenose RG 2 (NCBI),Bottlenose RG 2 (NCBI),100
+Beluga RG 1,Beluga RG 1,100
+Beluga RG 2,Beluga RG 2,100
+Blue whale RG,Blue whale RG,100

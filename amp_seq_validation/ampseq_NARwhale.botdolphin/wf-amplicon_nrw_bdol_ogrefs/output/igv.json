@@ -1,0 +1,53 @@
+{
+    "reference": {
+        "id": "ref",
+        "name": "ref",
+        "wholeGenomeView": false,
+        "fastaURL": "reference_sanitized_seqIDs.fasta",
+        "indexURL": "reference_sanitized_seqIDs.fasta.fai"
+    },
+    "tracks": [
+        {
+            "name": "BDolphinPCNAEx1Ex6RetrogenesB: BDolphinPCNAEx1Ex6RetrogenesB.aligned.sorted.bam",
+            "type": "alignment",
+            "format": "bam",
+            "url": "BDolphinPCNAEx1Ex6RetrogenesB/alignments/BDolphinPCNAEx1Ex6RetrogenesB.aligned.sorted.bam",
+            "displayMode": "SQUISHED",
+            "colorBy": "strand"
+        },
+        {
+            "name": "BDolphinPCNAEx1Ex6RetrogenesB: medaka.annotated.vcf.gz",
+            "type": "variant",
+            "format": "vcf",
+            "url": "BDolphinPCNAEx1Ex6RetrogenesB/variants/medaka.annotated.vcf.gz"
+        },
+        {
+            "name": "NARightWhaleRetrogeneB: NARightWhaleRetrogeneB.aligned.sorted.bam",
+            "type": "alignment",
+            "format": "bam",
+            "url": "NARightWhaleRetrogeneB/alignments/NARightWhaleRetrogeneB.aligned.sorted.bam",
+            "displayMode": "SQUISHED",
+            "colorBy": "strand"
+        },
+        {
+            "name": "NARightWhaleRetrogeneB: medaka.annotated.vcf.gz",
+            "type": "variant",
+            "format": "vcf",
+            "url": "NARightWhaleRetrogeneB/variants/medaka.annotated.vcf.gz"
+        },
+        {
+            "name": "NARightwhalePCNAEX1Ex6RetrogeneA: NARightwhalePCNAEX1Ex6RetrogeneA.aligned.sorted.bam",
+            "type": "alignment",
+            "format": "bam",
+            "url": "NARightwhalePCNAEX1Ex6RetrogeneA/alignments/NARightwhalePCNAEX1Ex6RetrogeneA.aligned.sorted.bam",
+            "displayMode": "SQUISHED",
+            "colorBy": "strand"
+        },
+        {
+            "name": "NARightwhalePCNAEX1Ex6RetrogeneA: medaka.annotated.vcf.gz",
+            "type": "variant",
+            "format": "vcf",
+            "url": "NARightwhalePCNAEX1Ex6RetrogeneA/variants/medaka.annotated.vcf.gz"
+        }
+    ]
+}

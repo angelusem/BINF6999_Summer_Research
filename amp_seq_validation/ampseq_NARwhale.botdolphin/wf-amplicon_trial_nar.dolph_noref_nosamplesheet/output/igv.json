@@ -1,0 +1,35 @@
+{
+    "reference": {
+        "id": "ref",
+        "name": "ref",
+        "wholeGenomeView": false,
+        "fastaURL": "all-consensus-seqs.fasta",
+        "indexURL": "all-consensus-seqs.fasta.fai"
+    },
+    "tracks": [
+        {
+            "name": "BDolphinPCNAEx1Ex6RetrogenesB: BDolphinPCNAEx1Ex6RetrogenesB.aligned.sorted.bam",
+            "type": "alignment",
+            "format": "bam",
+            "url": "BDolphinPCNAEx1Ex6RetrogenesB/alignments/BDolphinPCNAEx1Ex6RetrogenesB.aligned.sorted.bam",
+            "displayMode": "SQUISHED",
+            "colorBy": "strand"
+        },
+        {
+            "name": "NARightWhaleRetrogeneB: NARightWhaleRetrogeneB.aligned.sorted.bam",
+            "type": "alignment",
+            "format": "bam",
+            "url": "NARightWhaleRetrogeneB/alignments/NARightWhaleRetrogeneB.aligned.sorted.bam",
+            "displayMode": "SQUISHED",
+            "colorBy": "strand"
+        },
+        {
+            "name": "NARightwhalePCNAEX1Ex6RetrogeneA: NARightwhalePCNAEX1Ex6RetrogeneA.aligned.sorted.bam",
+            "type": "alignment",
+            "format": "bam",
+            "url": "NARightwhalePCNAEX1Ex6RetrogeneA/alignments/NARightwhalePCNAEX1Ex6RetrogeneA.aligned.sorted.bam",
+            "displayMode": "SQUISHED",
+            "colorBy": "strand"
+        }
+    ]
+}

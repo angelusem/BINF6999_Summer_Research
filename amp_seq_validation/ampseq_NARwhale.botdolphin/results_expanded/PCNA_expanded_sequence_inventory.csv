@@ -1,0 +1,12 @@
+sequence_id,length,ambiguous_N
+NARW_A_primer_free,602,0
+NARW_B_PCNA_like_core,786,0
+NARW_NCBI_PCNA_like,786,0
+NARW_parent_PCNA_CDS,786,0
+Bottlenose_PCNA_pseudogene1_core,785,0
+Bottlenose_PCNA_pseudogene2_core,777,0
+Beluga_retrogene1_core,785,0
+Beluga_retrogene2_core,786,0
+BlueWhale_retrogene2_core,786,0
+Beluga_parent_PCNA_CDS,786,0
+BlueWhale_parent_PCNA_CDS,786,0
