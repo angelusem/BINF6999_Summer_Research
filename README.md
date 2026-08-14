@@ -1,6 +1,6 @@
 # BINF*6999 Summer Research
 
-Bioinformatics research investigating copy-number variation in cancer-associated genes and its potential relationship with cancer resistance.
+Bioinformatics research investigating copy number variation in cancer-associated genes and its potential relationship with cancer resistance.
 
 ## Overall research question
 
