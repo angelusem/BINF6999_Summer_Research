@@ -1,0 +1,23 @@
+name: binf6999
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.12
+  - biopython
+  - pandas
+  - requests
+
+  - blast
+  - minimap2
+  - samtools
+  - nextflow
+
+  - r-base=4.4
+  - r-ape
+  - r-biocmanager
+  - r-pheatmap
+  - r-rcolorbrewer
+  - r-tidyverse
