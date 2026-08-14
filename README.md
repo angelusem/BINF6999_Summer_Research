@@ -147,14 +147,14 @@ conda activate binf6999
 
 ## Data and generated files
 
-The repository contains both source material and selected generated outputs. Generated files may include:
+The repository contains both source material and selected generated outputs. Generated files include:
 
-- BLAST database indexes (`.ndb`, `.nhr`, `.nin`, `.nsq`, and related files);
-- FASTA indexes (`.fai`);
-- BAM alignments and indexes;
-- compressed variant files and indexes;
-- Nextflow logs and execution reports; and
-- intermediate workflow output directories.
+- BLAST database indexes (`.ndb`, `.nhr`, `.nin`, `.nsq`, and related files)
+- FASTA indexes (`.fai`)
+- BAM alignments and indexes
+- compressed variant files and indexes
+- Nextflow logs and execution reports
+- intermediate workflow output directories
 
 Generated files are being reviewed as the repository is reorganized. Files that can be recreated reliably may be removed from version control once their generating commands have been validated and documented. Large raw sequencing datasets are stored outside this Git repository.
 
