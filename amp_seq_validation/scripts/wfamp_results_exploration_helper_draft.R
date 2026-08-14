@@ -1,7 +1,11 @@
+# Purpose:
+# To take an overall look at the results from each EPI2ME wf-amplicon pipeline run 
+
 setwd("C:/Users/angel/epi2melabs/instances/wf-amplicon_barcoded_addnl_r2_belugandblue_docmdefaults")
 
 # install once if needed:
 # BiocManager::install("Biostrings")
+# BiocManager::install("msa")
 
 library(Biostrings)
 
@@ -34,12 +38,12 @@ consensus_strings <- as.character(seqs)
 outer(consensus_strings, consensus_strings, Vectorize(function(a, b) {
   sum(strsplit(a, "")[[1]] != strsplit(b, "")[[1]])
 }))
-######
-# basc qc
+
+# -------basic qc -------
 width(seqs)
 letterFrequency(seqs, letters = c("A", "C", "G", "T", "N", "-"))
 alphabetFrequency(seqs)
-# pairwise comparison 
+# ------- pairwise comparison --------
 consensus_strings <- as.character(seqs)
 
 diff_matrix <- outer(consensus_strings, consensus_strings, Vectorize(function(a, b) {
@@ -47,10 +51,7 @@ diff_matrix <- outer(consensus_strings, consensus_strings, Vectorize(function(a,
 }))
 
 diff_matrix
-# multiple sequence alignment 
-# install once if needed:
-
-BiocManager::install("msa")
+# --------- multiple sequence alignment --------
 
 library(msa)
 
