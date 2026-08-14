@@ -6,8 +6,8 @@ Bioinformatics research investigating copy number variation.
 
 Does variation in retrogene copy number contribute to increased cancer resistance? What are the connections across species, across different cancer-linked genes, investigate mechanisms underlying it.
 
-Phase 1: focuses on the **proliferating cell nuclear antigen (PCNA)** gene across cetacean species
-Phase 2: extends the comparison
+- Phase 1: focuses on the **proliferating cell nuclear antigen (PCNA)** gene across cetacean species
+- Phase 2: extends the comparison
 
 ## This repository brings together three related components of the project:
 
