@@ -1,0 +1,131 @@
+IQ-TREE 3.1.3 built Jun 19 2026
+
+Input file name: PCNA_CDS_allminusDupes_aligned.fasta
+User tree file name: PCNA_codon.treefile
+Type of analysis: tree reconstruction
+Random seed number: 134910
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 24 sequences with 263 codon sites
+Number of constant sites: 59 (= 22.4335% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 59 (= 22.4335% of all sites)
+Number of parsimony informative sites: 110
+Number of distinct site patterns: 230
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: SCHN05+FU+G4
+
+Nonsynonymous/synonymous ratio (omega): 1.0000
+Transition/transversion ratio (kappa): 1.0000
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 10.9222
+
+ Category  Relative_rate  Proportion
+  1         0.6458         0.2500
+  2         0.8775         0.2500
+  3         1.0705         0.2500
+  4         1.4062         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -2837.1772 (s.e. 83.7417)
+Unconstrained log-likelihood (without tree): -1407.6099
+Number of free parameters (#branches + #model parameters): 46
+Akaike information criterion (AIC) score: 5766.3545
+Corrected Akaike information criterion (AICc) score: 5786.3730
+Bayesian information criterion (BIC) score: 5930.6735
+
+Total tree length (sum of branch lengths): 1.9119
+Sum of internal branch lengths: 0.3924 (20.5237% of tree length)
+
+WARNING: 10 near-zero internal branches (<0.0038) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Eubalaena_glacialis|lcl|XM_061208358.1_cds_XP_061064341.1_1' is drawn at root
+
+NOTE: Branch lengths are interpreted as number of nucleotide substitutions per codon site!
+      Rescale them by 1/3 if you want to have #nt substitutions per nt site
+
++**Eubalaena_glacialis|lcl|XM_061208358.1_cds_XP_061064341.1_1
+| (Node1)
+|                    +**Tursiops_truncatus|lcl|XM_033839387.2_cds_XP_033695278.1_1
+|                 +**| (Node8)
+|                 |  +**Phocoena_phocoena|lcl|XM_065893575.1_cds_XP_065749647.1_1
+|              +**| (Node7)
+|              |  +**Delphinapterus_leucas|lcl|XM_022556493.2_cds_XP_022412201.1_1
+|           +**| (Node6)
+|           |  |  +**Orcinus_orca|lcl|XM_004276444.4_cds_XP_004276492.1_1
+|           |  +**| (Node9)
+|           |     +--Globicephala_melas|lcl|XM_030872612.2_cds_XP_030728472.1_1
+|        +--| (Node5)
+|        |  +**Monodon_monoceros|lcl|XM_029222262.1_cds_XP_029078095.1_1
+|     +**| (Node4)
+|     |  |  +--Physeter_macrocephalus|lcl|XM_007114705.4_cds_XP_007114767.1_1
+|     |  +**| (Node10)
+|     |     +--Kogia_breviceps|lcl|XM_059037663.2_cds_XP_058893646.1_1
+|  +**| (Node3)
+|  |  |     +--Hippopotamus_amphibius_kiboko|lcl|XM_057703749.1_cds_XP_057559732.1_1
+|  |  |  +--| (Node12)
+|  |  |  |  |  +---Bos_taurus|lcl|NM_001034494.1_cds_NP_001029666.1_1
+|  |  |  |  +**| (Node13)
+|  |  |  |     |       +--Myotis_myotis|lcl|XM_036322524.1_cds_XP_036178417.1_1
+|  |  |  |     +-------| (Node14)
+|  |  |  |             +--Myotis_lucifugus|lcl|XM_006096433.3_cds_XP_006096495.1_1
+|  |  +--| (Node11)
+|  |     |           +---------Homo_sapiens|lcl|NM_002592.2_cds_NP_002583.1_1
+|  |     |        +--| (Node18)
+|  |     |        |  +-----Loxodonta_africana|lcl|XM_003411427.4_cds_XP_003411475.1_1
+|  |     |     +--| (Node17)
+|  |     |     |  |  +-----------------Mus_musculus|lcl|NM_011045.2_cds_NP_035175.1_1
+|  |     |     |  +--| (Node19)
+|  |     |     |     |   +-----------------------------------------------Melopsittacus_undulatus|lcl|XM_034070494.1_cds_XP_033926385.1_1
+|  |     |     |     +---| (Node20)
+|  |     |     |         +-----Heterocephalus_glaber|lcl|NM_001310245.1_cds_NP_001297174.1_1
+|  |     |  +**| (Node16)
+|  |     |  |  |  +---Canis_lupus_familiaris|lcl|XM_534355.6_cds_XP_534355.3_1
+|  |     |  |  +--| (Node21)
+|  |     |  |     +---Felis_catus|lcl|XM_003983740.5_cds_XP_003983789.1_1
+|  |     +--| (Node15)
+|  |        |  +--Equus_caballus|lcl|XM_001494721.6_cds_XP_001494771.1_1
+|  |        +--| (Node22)
+|  |           +--Ceratotherium_simum_simum|lcl|XM_004433778.3_cds_XP_004433835.1_1
++**| (Node2)
+|  +**Balaena_mysticetus|000872-000883_All_comp5735_c1_seq1_c2040-1255
+|
++**Balaenoptera_musculus|lcl|XM_036827146.1_cds_XP_036683041.1_1
+
+Tree in newick format:
+
+(Eubalaena_glacialis|lcl|XM_061208358.1_cds_XP_061064341.1_1:0.0037550656,(((((((Tursiops_truncatus|lcl|XM_033839387.2_cds_XP_033695278.1_1:0.0000010000,Phocoena_phocoena|lcl|XM_065893575.1_cds_XP_065749647.1_1:0.0000010000)Node8:0.0000010000,Delphinapterus_leucas|lcl|XM_022556493.2_cds_XP_022412201.1_1:0.0000010000)Node7:0.0000010000,(Orcinus_orca|lcl|XM_004276444.4_cds_XP_004276492.1_1:0.0037507712,Globicephala_melas|lcl|XM_030872612.2_cds_XP_030728472.1_1:0.0075204887)Node9:0.0000010000)Node6:0.0000010000,Monodon_monoceros|lcl|XM_029222262.1_cds_XP_029078095.1_1:0.0037503878)Node5:0.0113374216,(Physeter_macrocephalus|lcl|XM_007114705.4_cds_XP_007114767.1_1:0.0191284359,Kogia_breviceps|lcl|XM_059037663.2_cds_XP_058893646.1_1:0.0152845280)Node10:0.0036454841)Node4:0.0037421162,((Hippopotamus_amphibius_kiboko|lcl|XM_057703749.1_cds_XP_057559732.1_1:0.0130053193,(Bos_taurus|lcl|NM_001034494.1_cds_NP_001029666.1_1:0.0650696707,(Myotis_myotis|lcl|XM_036322524.1_cds_XP_036178417.1_1:0.0041024001,Myotis_lucifugus|lcl|XM_006096433.3_cds_XP_006096495.1_1:0.0149083243)Node14:0.1092666145)Node13:0.0032846556)Node12:0.0076115909,((((Homo_sapiens|lcl|NM_002592.2_cds_NP_002583.1_1:0.1341630405,Loxodonta_africana|lcl|XM_003411427.4_cds_XP_003411475.1_1:0.0820330573)Node18:0.0375520522,(Mus_musculus|lcl|NM_011045.2_cds_NP_035175.1_1:0.2418964815,(Melopsittacus_undulatus|lcl|XM_034070494.1_cds_XP_033926385.1_1:0.6310466333,Heterocephalus_glaber|lcl|NM_001310245.1_cds_NP_001297174.1_1:0.0905121646)Node20:0.0556814166)Node19:0.0375934770)Node17:0.0162177532,(Canis_lupus_familiaris|lcl|XM_534355.6_cds_XP_534355.3_1:0.0588504563,Felis_catus|lcl|XM_003983740.5_cds_XP_003983789.1_1:0.0639075942)Node21:0.0305010432)Node16:0.0006814258,(Equus_caballus|lcl|XM_001494721.6_cds_XP_001494771.1_1:0.0272276900,Ceratotherium_simum_simum|lcl|XM_004433778.3_cds_XP_004433835.1_1:0.0358690739)Node22:0.0338295031)Node15:0.0170976171)Node11:0.0243551569)Node3:0.0000010000,Balaena_mysticetus|000872-000883_All_comp5735_c1_seq1_c2040-1255:0.0000010000)Node2:0.0000010000,Balaenoptera_musculus|lcl|XM_036827146.1_cds_XP_036683041.1_1:0.0037496513)Node1;
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 17 11:55:02 2026
+Total CPU time used: 83.2344 seconds (0h:1m:23s)
+Total wall-clock time used: 37.1968 seconds (0h:0m:37s)
+

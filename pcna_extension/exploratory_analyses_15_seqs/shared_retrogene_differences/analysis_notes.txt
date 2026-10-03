@@ -1,0 +1,18 @@
+Input: C:/Users/angel/Downloads/Research project summer/exploratory_analyses_15_seqs/Aligned_extended_pcnaAndRG_pNArightwhale_gray_minke_orca.fasta
+Alignment columns: 930
+Included sequences: 28
+Species: 12
+Retrogene-parent comparisons: 16
+Shared ACGT-only columns: 647
+Columns excluded: 283
+Selected plot positions: 51
+Threshold: exact difference in at least 2 distinct species.
+A>G denotes present-day parent A / RG G; it does not infer mutation direction.
+Colors encode the RG base; compare text labels to identify exact shared differences.
+Dots indicate matches to the own-species parent, not a common base across rows.
+All copies are shown at selected sites, even if they do not share the difference.
+This is descriptive, not a test of selection, function, or ancestral conservation.
+Copy names do not establish orthology. Alignment and annotations require biological review.
+Sperm-whale PCNA-like sequence is provisionally treated as an RG candidate.
+Cow and all hippo sequences are excluded; partial right-whale chr16 excluded by default.
+Coordinates are original alignment columns; gaps/ambiguous sites are omitted globally.

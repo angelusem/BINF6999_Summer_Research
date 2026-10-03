@@ -1,0 +1,468 @@
+IQ-TREE 3.1.3 built Jun 19 2026
+
+Input file name: aligned_PCNA_fullbowheadRG_RGandParent_12cet_2hippo.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 504014
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 34 sequences with 795 nucleotide sites
+Number of constant sites: 613 (= 77.1069% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 613 (= 77.1069% of all sites)
+Number of parsimony informative sites: 105
+Number of distinct site patterns: 162
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM2+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM2+G4           -2655.067    5446.133 - 0.000988    5459.059 -  0.00222    5764.261 +     0.21
+TPM2+G4           -2655.067    5446.133 - 0.000988    5459.059 -  0.00222    5764.261 +     0.21
+TPM2u+G4          -2655.067    5446.134 - 0.000988    5459.059 -  0.00222    5764.261 +     0.21
+TPM2u+F+G4        -2646.476    5434.953 +    0.265    5449.094 +    0.324    5767.115 +   0.0505
+HKY+G4            -2660.085    5454.169 - 1.78e-005    5466.703 - 4.86e-005    5767.618 -   0.0393
+K2P+G4            -2660.085    5454.170 - 1.78e-005    5466.704 - 4.86e-005    5767.619 -   0.0393
+K2P+G4            -2660.085    5454.170 - 1.78e-005    5466.704 - 4.86e-005    5767.619 -   0.0393
+TPM2u+I           -2657.102    5450.203 - 0.000129    5463.129 -  0.00029    5768.331 -   0.0275
+TPM2+I            -2657.102    5450.205 - 0.000129    5463.130 -  0.00029    5768.332 -   0.0275
+TPM2+I            -2657.102    5450.205 - 0.000129    5463.130 -  0.00029    5768.332 -   0.0275
+TIM2+G4           -2654.991    5447.982 - 0.000392    5461.306 - 0.000722    5770.788 -  0.00805
+TIM2e+G4          -2654.991    5447.982 - 0.000392    5461.306 - 0.000722    5770.788 -  0.00805
+TIM2e+G4          -2654.991    5447.982 - 0.000392    5461.306 - 0.000722    5770.788 -  0.00805
+TPM2u+F+I         -2648.406    5438.812 -   0.0384    5452.953 -    0.047    5770.975 -  0.00733
+TPM2u+I+G4        -2655.307    5448.613 - 0.000286    5461.937 - 0.000527    5771.419 -  0.00587
+TPM2+I+G4         -2655.310    5448.621 - 0.000285    5461.945 - 0.000525    5771.426 -  0.00585
+TPM2+I+G4         -2655.310    5448.621 - 0.000285    5461.945 - 0.000525    5771.426 -  0.00585
+HKY+I             -2662.099    5458.199 - 2.37e-006    5470.733 - 6.48e-006    5771.648 -  0.00524
+K2P+I             -2662.100    5458.199 - 2.37e-006    5470.733 - 6.48e-006    5771.648 -  0.00523
+K2P+I             -2662.100    5458.199 - 2.37e-006    5470.733 - 6.48e-006    5771.648 -  0.00523
+TPM2u+R2          -2655.503    5449.005 - 0.000235    5462.329 - 0.000433    5771.811 -  0.00483
+TPM2+R2           -2655.549    5449.098 - 0.000224    5462.422 - 0.000413    5771.904 -  0.00461
+TPM2+R2           -2655.549    5449.098 - 0.000224    5462.422 - 0.000413    5771.904 -  0.00461
+TIM2+F+G4         -2645.639    5435.277 +    0.225    5449.837 +    0.224    5772.118 -  0.00414
+HKY+F+G4          -2652.998    5445.996 -  0.00106    5459.725 -  0.00159    5773.480 -  0.00209
+K3Pu+G4           -2659.799    5455.597 - 8.71e-006    5468.523 - 1.96e-005    5773.725 -  0.00185
+K3P+G4            -2659.799    5455.598 - 8.7e-006    5468.523 - 1.96e-005    5773.725 -  0.00185
+K3P+G4            -2659.799    5455.598 - 8.7e-006    5468.523 - 1.96e-005    5773.725 -  0.00185
+TN+G4             -2660.019    5456.038 - 6.98e-006    5468.964 - 1.57e-005    5774.165 -  0.00149
+TNe+G4            -2660.019    5456.038 - 6.98e-006    5468.964 - 1.57e-005    5774.166 -  0.00149
+TNe+G4            -2660.019    5456.038 - 6.98e-006    5468.964 - 1.57e-005    5774.166 -  0.00149
+TPM3u+G4          -2660.077    5456.155 - 6.59e-006    5469.081 - 1.48e-005    5774.282 -   0.0014
+TPM3+G4           -2660.078    5456.155 - 6.59e-006    5469.081 - 1.48e-005    5774.282 -   0.0014
+TPM3+G4           -2660.078    5456.155 - 6.59e-006    5469.081 - 1.48e-005    5774.282 -   0.0014
+TPM2u+F+I+G4      -2646.744    5437.489 +   0.0745    5452.048 +    0.074    5774.329 -  0.00137
+TPM2u+F+R2        -2646.822    5437.643 +    0.069    5452.203 +   0.0685    5774.484 -  0.00127
+HKY+I+G4          -2660.263    5456.526 - 5.47e-006    5469.451 - 1.23e-005    5774.653 -  0.00117
+K2P+I+G4          -2660.266    5456.533 - 5.45e-006    5469.459 - 1.23e-005    5774.660 -  0.00116
+K2P+I+G4          -2660.266    5456.533 - 5.45e-006    5469.459 - 1.23e-005    5774.660 -  0.00116
+TIM2+I            -2657.033    5452.066 - 5.09e-005    5465.390 - 9.37e-005    5774.872 -  0.00104
+TIM2e+I           -2657.033    5452.066 - 5.09e-005    5465.390 - 9.37e-005    5774.872 -  0.00104
+TIM2e+I           -2657.033    5452.066 - 5.09e-005    5465.390 - 9.37e-005    5774.872 -  0.00104
+HKY+R2            -2660.688    5457.377 - 3.58e-006    5470.302 - 8.04e-006    5775.504 - 0.000761
+K2P+R2            -2660.735    5457.470 - 3.41e-006    5470.396 - 7.67e-006    5775.597 - 0.000727
+K2P+R2            -2660.735    5457.470 - 3.41e-006    5470.396 - 7.67e-006    5775.597 - 0.000727
+TIM2+F+I          -2647.572    5439.143 -   0.0326    5453.703 -   0.0323    5775.984 - 0.000599
+TVM+G4            -2654.829    5449.658 -  0.00017    5463.387 - 0.000255    5777.142 - 0.000336
+TVMe+G4           -2654.829    5449.658 -  0.00017    5463.387 - 0.000255    5777.142 - 0.000336
+TVMe+G4           -2654.829    5449.658 -  0.00017    5463.387 - 0.000255    5777.142 - 0.000336
+HKY+F+I           -2654.881    5449.762 - 0.000161    5463.492 - 0.000242    5777.246 - 0.000319
+K3Pu+I            -2661.824    5459.648 - 1.15e-006    5472.574 - 2.58e-006    5777.775 - 0.000245
+K3P+I             -2661.824    5459.648 - 1.15e-006    5472.574 - 2.58e-006    5777.776 - 0.000245
+K3P+I             -2661.824    5459.648 - 1.15e-006    5472.574 - 2.58e-006    5777.776 - 0.000245
+TIM2+I+G4         -2655.226    5450.451 - 0.000114    5464.180 - 0.000172    5777.935 - 0.000226
+TIM2e+I+G4        -2655.229    5450.458 - 0.000114    5464.188 - 0.000171    5777.942 - 0.000225
+TIM2e+I+G4        -2655.229    5450.458 - 0.000114    5464.188 - 0.000171    5777.942 - 0.000225
+TIM2+R2           -2655.346    5450.691 - 0.000101    5464.421 - 0.000152    5778.175 -   0.0002
+TN+I              -2662.044    5460.088 - 9.22e-007    5473.014 - 2.07e-006    5778.215 - 0.000196
+TNe+I             -2662.044    5460.088 - 9.22e-007    5473.014 - 2.07e-006    5778.215 - 0.000196
+TNe+I             -2662.044    5460.088 - 9.22e-007    5473.014 - 2.07e-006    5778.215 - 0.000196
+TIM2e+R2          -2655.391    5450.782 - 9.67e-005    5464.511 - 0.000145    5778.266 - 0.000191
+TIM2e+R2          -2655.391    5450.782 - 9.67e-005    5464.511 - 0.000145    5778.266 - 0.000191
+TPM3u+I           -2662.099    5460.197 - 8.73e-007    5473.123 - 1.96e-006    5778.325 - 0.000186
+TPM3+I            -2662.099    5460.198 - 8.73e-007    5473.123 - 1.96e-006    5778.325 - 0.000186
+TPM3+I            -2662.099    5460.198 - 8.73e-007    5473.123 - 1.96e-006    5778.325 - 0.000186
+TN+F+G4           -2652.148    5446.295 - 0.000912    5460.436 -  0.00112    5778.458 - 0.000174
+TIM2+F+R2         -2645.906    5437.813 +   0.0633    5452.798 +   0.0509    5779.332 - 0.000112
+TIM2+F+I+G4       -2645.910    5437.820 +   0.0631    5452.805 +   0.0507    5779.339 - 0.000112
+K3Pu+F+G4         -2652.684    5447.369 - 0.000533    5461.510 - 0.000652    5779.531 - 0.000102
+TVM+F+G4          -2646.176    5438.352 -   0.0484    5453.336 -   0.0388    5779.871 - 8.58e-005
+TPM3u+F+G4        -2652.926    5447.852 - 0.000419    5461.993 - 0.000513    5780.014 - 7.99e-005
+TIM+G4            -2659.733    5457.466 - 3.42e-006    5470.790 - 6.3e-006    5780.271 - 7.02e-005
+TIMe+G4           -2659.733    5457.466 - 3.42e-006    5470.790 - 6.3e-006    5780.272 - 7.02e-005
+TIMe+G4           -2659.733    5457.466 - 3.42e-006    5470.790 - 6.3e-006    5780.272 - 7.02e-005
+HKY+F+I+G4        -2653.216    5448.432 - 0.000313    5462.573 - 0.000383    5780.594 - 5.97e-005
+K3Pu+I+G4         -2659.966    5457.933 - 2.71e-006    5471.257 - 4.99e-006    5780.738 - 5.56e-005
+K3P+I+G4          -2659.970    5457.939 - 2.7e-006    5471.264 - 4.97e-006    5780.745 - 5.54e-005
+K3P+I+G4          -2659.970    5457.939 - 2.7e-006    5471.264 - 4.97e-006    5780.745 - 5.54e-005
+TIM3+G4           -2660.012    5458.025 - 2.59e-006    5471.349 - 4.76e-006    5780.830 - 5.31e-005
+TIM3e+G4          -2660.012    5458.025 - 2.59e-006    5471.349 - 4.76e-006    5780.830 - 5.31e-005
+TIM3e+G4          -2660.012    5458.025 - 2.59e-006    5471.349 - 4.76e-006    5780.830 - 5.31e-005
+TN+I+G4           -2660.195    5458.391 - 2.15e-006    5471.715 - 3.97e-006    5781.196 - 4.42e-005
+TNe+I+G4          -2660.199    5458.397 - 2.15e-006    5471.722 - 3.95e-006    5781.203 - 4.41e-005
+TNe+I+G4          -2660.199    5458.397 - 2.15e-006    5471.722 - 3.95e-006    5781.203 - 4.41e-005
+TVM+I             -2656.873    5453.745 - 2.2e-005    5467.474 - 3.31e-005    5781.229 - 4.35e-005
+TVMe+I            -2656.873    5453.745 - 2.2e-005    5467.474 - 3.31e-005    5781.229 - 4.35e-005
+TVMe+I            -2656.873    5453.745 - 2.2e-005    5467.474 - 3.31e-005    5781.229 - 4.35e-005
+HKY+F+R2          -2653.569    5449.138 -  0.00022    5463.279 - 0.000269    5781.300 - 4.2e-005
+TPM3u+I+G4        -2660.249    5458.498 - 2.04e-006    5471.822 - 3.76e-006    5781.303 - 4.19e-005
+TPM3+I+G4         -2660.252    5458.504 - 2.04e-006    5471.828 - 3.75e-006    5781.310 - 4.18e-005
+TPM3+I+G4         -2660.252    5458.504 - 2.04e-006    5471.828 - 3.75e-006    5781.310 - 4.18e-005
+K3Pu+R2           -2660.266    5458.533 - 2.01e-006    5471.857 - 3.7e-006    5781.338 - 4.12e-005
+K3P+R2            -2660.314    5458.627 - 1.91e-006    5471.951 - 3.53e-006    5781.433 - 3.93e-005
+K3P+R2            -2660.314    5458.627 - 1.91e-006    5471.951 - 3.53e-006    5781.433 - 3.93e-005
+TN+R2             -2660.574    5459.148 - 1.47e-006    5472.473 - 2.72e-006    5781.954 - 3.03e-005
+TPM3u+R2          -2660.591    5459.181 - 1.45e-006    5472.506 - 2.67e-006    5781.987 - 2.98e-005
+TNe+R2            -2660.621    5459.242 - 1.41e-006    5472.566 - 2.59e-006    5782.047 - 2.89e-005
+TNe+R2            -2660.621    5459.242 - 1.41e-006    5472.566 - 2.59e-006    5782.047 - 2.89e-005
+TPM3+R2           -2660.637    5459.275 - 1.38e-006    5472.599 - 2.55e-006    5782.080 - 2.84e-005
+TPM3+R2           -2660.637    5459.275 - 1.38e-006    5472.599 - 2.55e-006    5782.080 - 2.84e-005
+TN+F+I            -2654.053    5450.105 - 0.000136    5464.246 - 0.000166    5782.268 - 2.59e-005
+K3Pu+F+I          -2654.575    5451.149 - 8.05e-005    5465.290 - 9.85e-005    5783.312 - 1.54e-005
+GTR+G4            -2654.752    5451.505 - 6.74e-005    5465.646 - 8.25e-005    5783.667 - 1.29e-005
+SYM+G4            -2654.753    5451.505 - 6.74e-005    5465.646 - 8.25e-005    5783.667 - 1.29e-005
+SYM+G4            -2654.753    5451.505 - 6.74e-005    5465.646 - 8.25e-005    5783.667 - 1.29e-005
+TVM+F+I           -2648.075    5442.150 -  0.00724    5457.135 -  0.00582    5783.669 - 1.28e-005
+TPM3u+F+I         -2654.778    5451.555 - 6.57e-005    5465.696 - 8.04e-005    5783.718 - 1.25e-005
+TVM+I+G4          -2655.060    5452.119 - 4.95e-005    5466.261 - 6.07e-005    5784.282 - 9.45e-006
+TVMe+I+G4         -2655.064    5452.127 - 4.94e-005    5466.268 - 6.04e-005    5784.289 - 9.42e-006
+TVMe+I+G4         -2655.064    5452.127 - 4.94e-005    5466.268 - 6.04e-005    5784.289 - 9.42e-006
+TIM+I             -2661.768    5461.537 - 4.47e-007    5474.861 - 8.23e-007    5784.342 - 9.17e-006
+TIMe+I            -2661.768    5461.537 - 4.47e-007    5474.861 - 8.23e-007    5784.342 - 9.17e-006
+TIMe+I            -2661.768    5461.537 - 4.47e-007    5474.861 - 8.23e-007    5784.342 - 9.17e-006
+TIM+F+G4          -2651.834    5447.667 - 0.000459    5462.227 - 0.000456    5784.508 - 8.44e-006
+TVM+R2            -2655.188    5452.376 - 4.36e-005    5466.517 - 5.34e-005    5784.539 - 8.31e-006
+TVMe+R2           -2655.234    5452.468 - 4.16e-005    5466.610 - 5.1e-005    5784.631 - 7.94e-006
+TVMe+R2           -2655.234    5452.468 - 4.16e-005    5466.610 - 5.1e-005    5784.631 - 7.94e-006
+GTR+F+G4          -2645.333    5438.666 -   0.0413    5454.083 -   0.0267    5784.863 - 7.07e-006
+TIM3+I            -2662.043    5462.086 - 3.39e-007    5475.410 - 6.25e-007    5784.892 - 6.97e-006
+TIM3e+I           -2662.043    5462.087 - 3.39e-007    5475.411 - 6.25e-007    5784.892 - 6.97e-006
+TIM3e+I           -2662.043    5462.087 - 3.39e-007    5475.411 - 6.25e-007    5784.892 - 6.97e-006
+TIM3+F+G4         -2652.072    5448.144 - 0.000362    5462.703 - 0.000359    5784.984 - 6.65e-006
+TN+F+I+G4         -2652.371    5448.742 - 0.000268    5463.302 - 0.000266    5785.583 - 4.93e-006
+TN+F+R2           -2652.644    5449.288 - 0.000204    5463.848 - 0.000203    5786.129 - 3.75e-006
+K3Pu+F+I+G4       -2652.891    5449.781 - 0.000159    5464.341 - 0.000158    5786.622 - 2.93e-006
+K3Pu+F+R2         -2653.053    5450.106 - 0.000136    5464.666 - 0.000135    5786.947 - 2.49e-006
+TVM+F+I+G4        -2646.435    5440.871 -   0.0137    5456.287 -  0.00888    5787.068 - 2.35e-006
+TVM+F+R2          -2646.438    5440.877 -   0.0137    5456.293 -  0.00886    5787.074 - 2.34e-006
+TPM3u+F+I+G4      -2653.134    5450.269 - 0.000125    5464.828 - 0.000124    5787.110 - 2.3e-006
+TIM+I+G4          -2659.899    5459.798 - 1.07e-006    5473.527 - 1.6e-006    5787.282 - 2.11e-006
+TIMe+I+G4         -2659.902    5459.804 - 1.06e-006    5473.533 - 1.6e-006    5787.288 - 2.1e-006
+TIMe+I+G4         -2659.902    5459.804 - 1.06e-006    5473.533 - 1.6e-006    5787.288 - 2.1e-006
+TPM3u+F+R2        -2653.327    5450.655 - 0.000103    5465.215 - 0.000102    5787.496 - 1.9e-006
+TIM+R2            -2660.113    5460.226 - 8.6e-007    5473.955 - 1.29e-006    5787.710 - 1.7e-006
+GTR+I             -2656.804    5455.608 - 8.66e-006    5469.749 - 1.06e-005    5787.770 - 1.65e-006
+SYM+I             -2656.804    5455.608 - 8.66e-006    5469.749 - 1.06e-005    5787.770 - 1.65e-006
+SYM+I             -2656.804    5455.608 - 8.66e-006    5469.749 - 1.06e-005    5787.770 - 1.65e-006
+TIMe+R2           -2660.160    5460.320 - 8.21e-007    5474.050 - 1.23e-006    5787.804 - 1.62e-006
+TIMe+R2           -2660.160    5460.320 - 8.21e-007    5474.050 - 1.23e-006    5787.804 - 1.62e-006
+TIM3+I+G4         -2660.168    5460.336 - 8.14e-007    5474.066 - 1.22e-006    5787.820 - 1.61e-006
+TIM3e+I+G4        -2660.171    5460.342 - 8.12e-007    5474.071 - 1.22e-006    5787.826 - 1.61e-006
+TIM3e+I+G4        -2660.171    5460.342 - 8.12e-007    5474.071 - 1.22e-006    5787.826 - 1.61e-006
+TIM3+R2           -2660.259    5460.519 - 7.43e-007    5474.248 - 1.12e-006    5788.002 - 1.47e-006
+TIM3e+R2          -2660.317    5460.634 - 7.02e-007    5474.363 - 1.06e-006    5788.118 - 1.39e-006
+TIM3e+R2          -2660.317    5460.634 - 7.02e-007    5474.363 - 1.06e-006    5788.118 - 1.39e-006
+TIM+F+I           -2653.745    5451.491 - 6.79e-005    5466.050 - 6.74e-005    5788.331 - 1.25e-006
+GTR+F+I           -2647.236    5442.473 -  0.00616    5457.890 -  0.00399    5788.670 - 1.05e-006
+TIM3+F+I          -2653.946    5451.892 - 5.55e-005    5466.452 - 5.51e-005    5788.733 - 1.02e-006
+GTR+R2            -2654.978    5453.955 - 1.98e-005    5468.515 - 1.97e-005    5790.796 - 3.64e-007
+GTR+I+G4          -2654.981    5453.961 - 1.97e-005    5468.521 - 1.96e-005    5790.802 - 3.63e-007
+SYM+I+G4          -2654.984    5453.968 - 1.97e-005    5468.528 - 1.95e-005    5790.809 - 3.62e-007
+SYM+I+G4          -2654.984    5453.968 - 1.97e-005    5468.528 - 1.95e-005    5790.809 - 3.62e-007
+SYM+R2            -2655.023    5454.045 - 1.89e-005    5468.605 - 1.88e-005    5790.886 - 3.48e-007
+SYM+R2            -2655.023    5454.045 - 1.89e-005    5468.605 - 1.88e-005    5790.886 - 3.48e-007
+TIM+F+I+G4        -2652.051    5450.103 - 0.000136    5465.088 - 0.000109    5791.622 - 2.41e-007
+GTR+F+R2          -2645.525    5441.049 -   0.0126    5456.905 -  0.00652    5791.925 - 2.07e-007
+TIM+F+R2          -2652.255    5450.509 - 0.000111    5465.494 - 8.9e-005    5792.028 - 1.97e-007
+GTR+F+I+G4        -2645.595    5441.190 -   0.0117    5457.046 -  0.00608    5792.066 - 1.93e-007
+TIM3+F+I+G4       -2652.292    5450.583 - 0.000107    5465.568 - 8.58e-005    5792.102 - 1.89e-007
+TIM3+F+R2         -2652.484    5450.967 - 8.82e-005    5465.952 - 7.08e-005    5792.486 - 1.56e-007
+JC+G4             -2728.058    5588.115 - 1.46e-034    5600.264 - 4.84e-034    5896.886 - 3.34e-030
+JC+G4             -2728.058    5588.115 - 1.46e-034    5600.264 - 4.84e-034    5896.886 - 3.34e-030
+F81+G4            -2728.058    5588.116 - 1.46e-034    5600.265 - 4.83e-034    5896.887 - 3.34e-030
+JC+I              -2730.038    5592.077 - 2.01e-035    5604.225 - 6.67e-035    5900.847 - 4.61e-031
+JC+I              -2730.038    5592.077 - 2.01e-035    5604.225 - 6.67e-035    5900.847 - 4.61e-031
+F81+I             -2730.039    5592.077 - 2.01e-035    5604.226 - 6.67e-035    5900.848 - 4.61e-031
+F81+F+G4          -2720.627    5579.254 - 1.22e-032    5592.579 - 2.26e-032    5902.060 - 2.51e-031
+F81+I+G4          -2728.290    5590.581 - 4.25e-035    5603.114 - 1.16e-034    5904.030 - 9.39e-032
+JC+I+G4           -2728.294    5590.588 - 4.24e-035    5603.122 - 1.16e-034    5904.037 - 9.36e-032
+JC+I+G4           -2728.294    5590.588 - 4.24e-035    5603.122 - 1.16e-034    5904.037 - 9.36e-032
+F81+R2            -2728.991    5591.982 - 2.11e-035    5604.516 - 5.77e-035    5905.431 - 4.66e-032
+JC+R2             -2729.061    5592.122 - 1.97e-035    5604.656 - 5.38e-035    5905.571 - 4.34e-032
+JC+R2             -2729.061    5592.122 - 1.97e-035    5604.656 - 5.38e-035    5905.571 - 4.34e-032
+F81+F+I           -2722.551    5583.103 - 1.79e-033    5596.427 - 3.29e-033    5905.908 - 3.67e-032
+F81+F+I+G4        -2720.885    5581.769 - 3.48e-033    5595.498 - 5.24e-033    5909.253 - 6.89e-033
+F81+F+R2          -2721.454    5582.907 - 1.97e-033    5596.637 - 2.97e-033    5910.391 - 3.9e-033
+JC+I+R2           -2728.835    5593.670 - 9.07e-036    5606.596 - 2.04e-035    5911.797 - 1.93e-033
+JC+R3             -2727.684    5593.368 - 1.06e-035    5606.692 - 1.94e-035    5916.173 - 2.17e-034
+JC+I+R3           -2728.297    5596.593 - 2.1e-036    5610.323 - 3.16e-036    5924.077 - 4.16e-036
+JC                -2747.654    5625.307 - 1.22e-042    5637.077 - 4.91e-042    5929.400 - 2.91e-037
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM2+G4
+
+Rate parameter R:
+
+  A-C: 0.4483
+  A-G: 3.4016
+  A-T: 0.4483
+  C-G: 1.0000
+  C-T: 3.4016
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A   -0.8862   0.09243    0.7014   0.09243
+  C   0.09243        -1    0.2062    0.7014
+  G    0.7014    0.2062    -1.114    0.2062
+  T   0.09243    0.7014    0.2062        -1
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5451
+
+ Category  Relative_rate  Proportion
+  1         0.04202        0.25
+  2         0.2803         0.25
+  3         0.8505         0.25
+  4         2.827          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2655.0667 (s.e. 99.2000)
+Unconstrained log-likelihood (without tree): -2281.6110
+Number of free parameters (#branches + #model parameters): 68
+Akaike information criterion (AIC) score: 5446.1334
+Corrected Akaike information criterion (AICc) score: 5459.0590
+Bayesian information criterion (BIC) score: 5764.2607
+
+Total tree length (sum of branch lengths): 0.3245
+Sum of internal branch lengths: 0.1495 (46.0714% of tree length)
+
+WARNING: 10 near-zero internal branches (<0.0013) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Hippopotamus_parent' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
+                             +--bmy_21945T0
+                      +------| (97.9/100)
+                      |      +-----NArightWhale_retrogene_1
+                   +--| (87.1/89)
+                   |  |        +---BlueWhale_retrogene_1
+                   |  |     +--| (73.4/71)
+                   |  |     |  +------------HumpbackWhale_retrogene_1
+                   |  |  +--| (84.7/77)
+                   |  |  |  +--MinkeWhale_retrogene_1
+                   |  +--| (73.3/79)
+                   |     +--------GrayWhale_retrogene_1
+                +--| (92.4/96)
+                |  |                    +---Narwhal_retrogene_1
+                |  |          +---------| (98.6/100)
+                |  |          |         +**BelugaWhale_retrogene_1
+                |  |  +-------| (96.9/99)
+                |  |  |       |      +-----------------------BottlenoseDolphin_retrogene_1
+                |  |  |       +------| (94.1/98)
+                |  |  |              +----------Orca_retrogene_1
+                |  +--| (87.1/94)
+                |     |   +----SpermWhale_retrogene
+                |     +---| (87.1/91)
+                |         +----------------------PygmySpermWhale_retrogene_1
+      +---------| (99/100)
+      |         |                                 +---Narwhal_retrogene_2
+      |         |                             +---| (94.2/98)
+      |         |                             |   +--BelugaWhale_retrogene_2
+      |         |                          +--| (91.9/98)
+      |         |                          |  |  +-------BottlenoseDolphin_retrogene_2
+      |         |                          |  +--| (74.7/88)
+      |         |                          |     +--Orca_retrogene_2
+      |         |                       +**| (0/19)
+      |         |                       |  +--Narwhal_parent
+      |         |                    +**| (0/16)
+      |         |                    |  +**BottlenoseDolphin_parent
+      |         |                 +**| (0/21)
+      |         |                 |  +**BelugaWhale_parent
+      |         |              +--| (94.2/96)
+      |         |              |  +--Orca_parent
+      |         |           +--| (78.8/60)
+      |         |           |  |  +-----SpermWhale_parent
+      |         |           |  +**| (74.6/65)
+      |         |           |     +---PygmySpermWhale_parent
+      |         |        +**| (0/43)
+      |         |        |  +--MinkeWhale_parent
+      |         |     +**| (0/31)
+      |         |     |  +**BowheadWhale_parent
+      |         |  +**| (0/25)
+      |         |  |  |  +--NARightWhale_parent
+      |         |  |  +**| (0/22)
+      |         |  |     +--HumpbackWhale_parent
+      |         +**| (75.2/73)
+      |            |  +**BlueWhale_parent
+      |            +--| (85.5/94)
+      |               +**GrayWhale_parent
+   +**| (71.7/89)
+   |  |                        +--Hippo_retrogene_chr1
+   |  +------------------------| (100/100)
+   |                           +-----PygmyHippo_retrogene_chr1
++--| (79.7/89)
+|  |                           +---Hippo_retrogene_chrX
+|  +---------------------------| (100/100)
+|                              +**PygmyHippo_retrogene_chrX
+|
++**Hippopotamus_parent
+|
++**PygmyHippo_parent
+
+Tree in newick format:
+
+(((((((bmy_21945T0:0.0025281458,NArightWhale_retrogene_1:0.0065863183)97.9/100:0.0078958325,(((BlueWhale_retrogene_1:0.0053011861,HumpbackWhale_retrogene_1:0.0145468285)73.4/71:0.0012622934,MinkeWhale_retrogene_1:0.0024979614)84.7/77:0.0038858521,GrayWhale_retrogene_1:0.0104498203)73.3/79:0.0013728821)87.1/89:0.0026005995,(((Narwhal_retrogene_1:0.0052183968,BelugaWhale_retrogene_1:0.0012338572)98.6/100:0.0115097781,(BottlenoseDolphin_retrogene_1:0.0262425320,Orca_retrogene_1:0.0119979274)94.1/98:0.0083443275)96.9/99:0.0097622061,(SpermWhale_retrogene:0.0056111299,PygmySpermWhale_retrogene_1:0.0253616998)87.1/91:0.0047137915)87.1/94:0.0040010492)92.4/96:0.0039335208,(((((((((((Narwhal_retrogene_2:0.0052205612,BelugaWhale_retrogene_2:0.0025892889)94.2/98:0.0050813070,(BottlenoseDolphin_retrogene_2:0.0092025465,Orca_retrogene_2:0.0039275768)74.7/88:0.0014487752)91.9/98:0.0038367239,Narwhal_parent:0.0012817008)0/19:0.0000010000,BottlenoseDolphin_parent:0.0000010000)0/16:0.0000010000,BelugaWhale_parent:0.0000010000)0/21:0.0000010000,Orca_parent:0.0012821279)94.2/96:0.0038874245,(SpermWhale_parent:0.0065676823,PygmySpermWhale_parent:0.0052273413)74.6/65:0.0012285718)78.8/60:0.0012860146,MinkeWhale_parent:0.0012822016)0/43:0.0000010000,BowheadWhale_parent:0.0000010000)0/31:0.0000010000,(NARightWhale_parent:0.0012849094,HumpbackWhale_parent:0.0012816659)0/22:0.0000010000)0/25:0.0000010000,(BlueWhale_parent:0.0000010000,GrayWhale_parent:0.0000010000)85.5/94:0.0012817341)75.2/73:0.0012293246)99/100:0.0109046251,(Hippo_retrogene_chr1:0.0038560079,PygmyHippo_retrogene_chr1:0.0066266525)100/100:0.0278379301)71.7/89:0.0009011641,(Hippo_retrogene_chrX:0.0054437235,PygmyHippo_retrogene_chrX:0.0010548485)100/100:0.0312365804)79.7/89:0.0013297854,Hippopotamus_parent:0.0000010000,PygmyHippo_parent:0.0000010000);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2655.080130
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                             +--bmy_21945T0
+                      +------| (100)
+                      |      +-----NArightWhale_retrogene_1
+                   +--| (89)
+                   |  |        +---BlueWhale_retrogene_1
+                   |  |     +--| (71)
+                   |  |     |  +------------HumpbackWhale_retrogene_1
+                   |  |  +--| (77)
+                   |  |  |  +--MinkeWhale_retrogene_1
+                   |  +--| (79)
+                   |     +--------GrayWhale_retrogene_1
+                +--| (96)
+                |  |                    +---Narwhal_retrogene_1
+                |  |          +---------| (100)
+                |  |          |         +--BelugaWhale_retrogene_1
+                |  |  +-------| (99)
+                |  |  |       |      +-----------------------BottlenoseDolphin_retrogene_1
+                |  |  |       +------| (98)
+                |  |  |              +----------Orca_retrogene_1
+                |  +--| (94)
+                |     |   +----SpermWhale_retrogene
+                |     +---| (91)
+                |         +----------------------PygmySpermWhale_retrogene_1
+      +---------|
+      |         |                              +---Narwhal_retrogene_2
+      |         |                          +---| (98)
+      |         |                          |   +--BelugaWhale_retrogene_2
+      |         |                       +--| (98)
+      |         |                       |  |  +-------BottlenoseDolphin_retrogene_2
+      |         |                       |  +--| (88)
+      |         |                       |     +--Orca_retrogene_2
+      |         |                    +--| (38)
+      |         |                    |  +--Orca_parent
+      |         |                 +--| (24)
+      |         |                 |  |  +--BelugaWhale_parent
+      |         |                 |  +--| (29)
+      |         |                 |     +--BottlenoseDolphin_parent
+      |         |              +--| (96)
+      |         |              |  +--Narwhal_parent
+      |         |           +--| (60)
+      |         |           |  |  +-----SpermWhale_parent
+      |         |           |  +--| (65)
+      |         |           |     +---PygmySpermWhale_parent
+      |         |        +--| (43)
+      |         |        |  +--MinkeWhale_parent
+      |         |     +--| (31)
+      |         |     |  +--BowheadWhale_parent
+      |         |  +--| (25)
+      |         |  |  |  +--NARightWhale_parent
+      |         |  |  +--| (22)
+      |         |  |     +--HumpbackWhale_parent
+      |         +--| (73)
+      |            |  +--BlueWhale_parent
+      |            +--| (94)
+      |               +--GrayWhale_parent
+   +--| (100)
+   |  |                        +--Hippo_retrogene_chr1
+   |  +------------------------| (100)
+   |                           +-----PygmyHippo_retrogene_chr1
++--| (89)
+|  |                           +---Hippo_retrogene_chrX
+|  +---------------------------| (100)
+|                              +--PygmyHippo_retrogene_chrX
+| (89)
++--Hippopotamus_parent
+|
++--PygmyHippo_parent
+
+
+Consensus tree in newick format: 
+
+(((((((bmy_21945T0:0.0025284517,NArightWhale_retrogene_1:0.0065862790)100:0.0078956788,(((BlueWhale_retrogene_1:0.0053015562,HumpbackWhale_retrogene_1:0.0145474190)71:0.0012621221,MinkeWhale_retrogene_1:0.0024980846)77:0.0038853918,GrayWhale_retrogene_1:0.0104502775)79:0.0013728812)89:0.0025999929,(((Narwhal_retrogene_1:0.0052185022,BelugaWhale_retrogene_1:0.0012343180)100:0.0115103514,(BottlenoseDolphin_retrogene_1:0.0262445240,Orca_retrogene_1:0.0119984646)98:0.0083447393)99:0.0097628497,(SpermWhale_retrogene:0.0056120627,PygmySpermWhale_retrogene_1:0.0253632762)91:0.0047141404)94:0.0040013370)96:0.0039339967,((((((((((Narwhal_retrogene_2:0.0052213652,BelugaWhale_retrogene_2:0.0025896881)98:0.0050819931,(BottlenoseDolphin_retrogene_2:0.0092028071,Orca_retrogene_2:0.0039290923)88:0.0014489311)98:0.0038378390,Orca_parent:0.0012827069)38:0.0000022303,(BelugaWhale_parent:0.0000022303,BottlenoseDolphin_parent:0.0000022303)29:0.0000022303)24:0.0000022303,Narwhal_parent:0.0012822323)96:0.0038887231,(SpermWhale_parent:0.0065685959,PygmySpermWhale_parent:0.0052288419)65:0.0012291224)60:0.0012863617,MinkeWhale_parent:0.0012826485)43:0.0000022303,BowheadWhale_parent:0.0000022303)31:0.0000022303,(NARightWhale_parent:0.0012853469,HumpbackWhale_parent:0.0012820919)22:0.0000022303)25:0.0000022303,(BlueWhale_parent:0.0000022303,GrayWhale_parent:0.0000022303)94:0.0012821163)73:0.0012301830):0.0109051247,(Hippo_retrogene_chr1:0.0038552668,PygmyHippo_retrogene_chr1:0.0066282879)100:0.0278385928)100:0.0009006650,(Hippo_retrogene_chrX:0.0054444818,PygmyHippo_retrogene_chrX:0.0010553018)100:0.0312377735)89:0.0013306091,Hippopotamus_parent:0.0000022303,PygmyHippo_parent:0.0000022303)89;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t PCNA_fullbowheadRGandParent_12cet_2hippo_oct1.treefile -m "TPM2{0.448281,3.40163}+FQ+G4{0.545109}" --length 795
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s aligned_PCNA_fullbowheadRG_RGandParent_12cet_2hippo.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s aligned_PCNA_fullbowheadRG_RGandParent_12cet_2hippo.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct 01 21:06:17 2026
+Total CPU time used: 52.1875 seconds (0h:0m:52s)
+Total wall-clock time used: 39.4399762 seconds (0h:0m:39s)
+

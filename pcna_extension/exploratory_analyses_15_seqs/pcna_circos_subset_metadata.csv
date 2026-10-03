@@ -1,0 +1,16 @@
+Identifier,Species,Type,Copy
+BowheadPCNARetrogene,Bowhead whale,Retrogene,RG
+Monodon_monoceros_chr5_isolate_NGI_ecotype_Baffin_Bay_Population,Narwhal,Retrogene,RG1
+Monodon_monoceros_chr7_isolate_NGI_ecotype_Baffin_Bay_Population,Narwhal,Retrogene,RG2
+NArightW_B_PCNA_like_core,North Atlantic right whale,Retrogene,RG
+Bottlenose_PCNA_pseudogene1_core,Bottlenose dolphin,Retrogene,RG1
+Bottlenose_PCNA_pseudogene2_core,Bottlenose dolphin,Retrogene,RG2
+Beluga_retrogene1_core,Beluga,Retrogene,RG1
+Beluga_retrogene2_core,Beluga,Retrogene,RG2
+BlueWhale_retrogene_core,Blue whale,Retrogene,RG
+Beluga_parent_PCNA_CDS,Beluga,Parent,Parent
+BlueWhale_parent_PCNA_CDS,Blue whale,Parent,Parent
+dolphin_parent_PCNA_CDS,Bottlenose dolphin,Parent,Parent
+NARightW_parent_PCNA_CDS,North Atlantic right whale,Parent,Parent
+Bowhead_parent_full_bmy16007,Bowhead whale,Parent,Parent
+Narwhal_parent_PCNA_CDS,Narwhal,Parent,Parent

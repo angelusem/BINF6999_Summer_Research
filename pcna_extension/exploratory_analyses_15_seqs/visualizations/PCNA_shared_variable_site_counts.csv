@@ -1,0 +1,13 @@
+"","Beluga whale","Bottlenose dolphin","Narwhal","Orca","Pygmy sperm whale","Sperm whale","Blue whale","North Atlantic right whale","Bowhead whale","Humpback whale","Gray whale","Minke whale"
+"Beluga whale",0,19,18,18,11,10,14,14,15,14,14,14
+"Bottlenose dolphin",19,0,18,18,11,10,14,14,15,14,14,14
+"Narwhal",18,18,0,17,10,9,13,13,14,13,13,13
+"Orca",18,18,17,0,10,9,13,13,14,13,13,13
+"Pygmy sperm whale",11,11,10,10,0,10,12,12,13,12,12,14
+"Sperm whale",10,10,9,9,10,0,11,11,12,11,11,11
+"Blue whale",14,14,13,13,12,11,0,17,18,17,19,17
+"North Atlantic right whale",14,14,13,13,12,11,17,0,18,17,17,17
+"Bowhead whale",15,15,14,14,13,12,18,18,0,18,18,18
+"Humpback whale",14,14,13,13,12,11,17,17,18,0,17,17
+"Gray whale",14,14,13,13,12,11,19,17,18,17,0,17
+"Minke whale",14,14,13,13,14,11,17,17,18,17,17,0

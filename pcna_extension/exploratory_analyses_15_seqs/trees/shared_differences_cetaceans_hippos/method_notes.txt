@@ -1,0 +1,7 @@
+NC: outside the overlapping spans of the parent and RG; treated as unknown.
+Terminal absence could be incomplete extraction or a true truncation; not resolved here.
+Internal gaps are retained; ambiguous bases and both-gap cells are not comparable.
+Each difference must occur in at least two distinct species globally to select a site.
+Denominators vary by position. Species counted once if any copy is comparable.
+A 0/0 fraction means no comparable data, not zero divergence.
+Gap columns are not separate biological indel events. Alignment is assumed correct.

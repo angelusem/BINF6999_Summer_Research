@@ -1,0 +1,15 @@
+Loxodonta africana
+Bos taurus
+Eubalaena glacialis
+Balaena mysticetus
+Hexaprotodon liberiensis
+Hippopotamus amphibius
+Megaptera novaeangliae
+Balaenoptera musculus
+Balaenoptera acutorostrata
+Eschrichtius robustus
+Kogia breviceps
+Physeter macrocephalus
+Delphinapterus leucas
+Tursiops truncatus
+Orcinus orca
