@@ -76,7 +76,7 @@ This repository contains three related analytical components:
 
 Survey and evaluation of publicly available cetacean genomic and RNA-sequencing resources, primarily obtained through NCBI.
 
-Key contents include:
+Contents include:
 
 - genome assemblies, annotations, and protein sequences
 - PCNA query sequences and locally generated BLAST databases
@@ -91,7 +91,7 @@ Validation of an experimental approach that combines long-range PCR with Oxford 
 
 Initial work focused on beluga (*Delphinapterus leucas*) and blue whale (*Balaenoptera musculus*), followed by analyses of North Atlantic right whale (*Eubalaena glacialis*) and bottlenose dolphin (*Tursiops truncatus*) samples.
 
-Directory contains:
+Includes:
 
 - genome-derived and amplicon-specific reference sequences
 - sample sheets and primer information
@@ -106,7 +106,7 @@ See [`amp_seq_validation/README.md`](amp_seq_validation/README.md) for the detai
 
 Comparative sequence analyses performed after candidate PCNA sequences and amplicon consensus sequences were identified.
 
-It contains:
+Includes:
 
 - curated sequence sets used for PCNA comparisons
 - R scripts for preparing and comparing homologous sequence regions
