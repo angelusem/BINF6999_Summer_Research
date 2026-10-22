@@ -9,7 +9,7 @@ Does variation in retrogene copy number contribute to increased cancer resistanc
 - **Phase 1:** Investigate the **proliferating cell nuclear antigen (PCNA)** parent gene and retrogene copies across cetacean species.
 - **Phase 2:** Extend the comparative approach: additional cancer-associated genes and species.
 
-> **Project status:** Phase 1 analyses and reproducibility documentation are being refined. Work toward the Phase 2 objectives is planned to begin in September 2026.
+> **Project status:** Phase 1 analyses and reproducibility documentation are being refined. Phase 2 is underway, estimated completion: December 2026
 
 ## Project components
 
@@ -63,6 +63,18 @@ This repository contains three related analytical components:
 │       ├── phylogenetic trees
 │       ├── identity heatmaps
 │       └── poster figures and source data
+├── pcna_extension/
+│   └── exploratory_analyses_15_seqs/
+│       ├── sequence sets, alignments, and metadata
+│       ├── exploratory R analysis scripts
+│       ├── circos_parent_only/
+│       ├── circos_own_parent_output/
+│       ├── scripts_visualization/
+│       ├── shared_retrogene_differences/
+│       ├── shared_differences_coverage_aware/
+│       ├── shared_differences_sep28/
+│       ├── trees/
+│       └── visualization scripts and generated figures
 └── project_documents/
     ├── LLM_validation_log.md
     ├── poster_srp_fin.pdf
@@ -116,6 +128,23 @@ Includes:
 - parent-gene and retrogene identity heatmaps
 - final poster figures with their source data
 
+### `pcna_extension/`
+
+Expanded exploratory analyses of PCNA parent-gene and putative retrogene sequences, building on the earlier comparative sequence analyses.
+
+The `exploratory_analyses_15_seqs/` directory contains multiple sequence sets and successive analysis versions. Despite its original name, the directory also includes expanded datasets beyond the initial 15-sequence comparison.
+
+Includes:
+
+- curated FASTA sequence sets, multiple-sequence alignments, and sequence metadata
+- comparisons of PCNA parent coding sequences
+- circular visualizations of sequence identity, substitutions, and alignment gaps
+- comparisons of putative retrogenes with their own species' PCNA parent gene
+- identification and visualization of exact parent–retrogene differences shared across at least two species
+- coverage-aware comparisons that distinguish internal alignment gaps from positions outside overlapping sequence spans
+- exploratory phylogenetic analyses, including IQ-TREE outputs
+- generated figures, comparison tables, and method notes
+
 ### `project_documents/`
 
 Project-level supporting material, including the research poster, references consulted, and a log documenting validation of material LLM-assisted work.
@@ -128,13 +157,15 @@ Several analyses are exploratory, and some scripts may still contain run-specifi
 
 Software used across the project includes:
 
-- BLAST+
+- BLASTn v2.12.0
 - Nextflow
 - EPI2ME Labs `wf-amplicon`
-- Minimap2
-- SAMtools
-- R
-- Python
+- SAMtools v1.19-1
+- R v4.6.0
+- Python v3.13.13
+- IQ-TREE v3.1.3 
+- mafft v7.505
+- R packages used in the exploratory analyses, including `ape`, `Biostrings`, `DECIPHER`, and `circlize`
 
 The root [`environment.yml`](environment.yml) provides a starting Conda environment for the command-line, Python, and R dependencies used in the project.
 
@@ -164,5 +195,5 @@ Genome assemblies, annotations, and sequencing-study metadata were obtained from
 
 ## Reproducibility
 
-Reproducibility documentation is in progress. currently an environment.yml has been created to support the dependencies used in the ongoing work of this project
+Reproducibility documentation is in progress. currently an environment.yml has been created to support the dependencies used in the ongoing work of this project. 
 
