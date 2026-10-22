@@ -1,8 +1,8 @@
 # Amplicon Sequencing Validation of PCNA Copy Number in Beluga and Blue Whale
 
-The hypothesis is that beluga has 3 PCNA copies (1 parent gene \+ 2 retrogenes) and blue whale has 2 copies (1 parent gene \+ 1 retrogene). ddPCR on samples of beluga whale (B12) and blue whale confirmed the copy numbers and amplicon sequencing (ONT) was performed to characterise the individual copies at the sequence level. Analysis was run through the wf-amplicon workflow on Nextflow, through the AAC at the UoG. When performing variant calling, this first run used a consensus sequence from the provided samples as a reference for each amplicon to map against: “do any reads differ (and where) from the average of all reads” \- unsure about utility.
+The hypothesis is that beluga has 3 PCNA copies (1 parent gene \+ 2 retrogenes) and blue whale has 2 copies (1 parent gene \+ 1 retrogene). Long-range PCR on samples of beluga whale (B12) and blue whale confirmed the copy numbers and amplicon sequencing (ONT) was performed to characterise the individual copies at the sequence level. Analysis was run through the wf-amplicon workflow on Nextflow, through the AAC at the UoG. When performing variant calling, this first run used a consensus sequence from the provided samples as a reference for each amplicon to map against: “do any reads differ (and where) from the average of all reads” \- unsure about utility.
 
-Objective: re-run amplicon workflow and variant calling using reference genome sequences: “how does individual B12 \+ our blue whale sample differ from reference genome”
+Objective: re-run amplicon workflow and variant calling using reference genome sequences: “how do our samples differ from reference genome”
 
 PROGRESS LOGS
 
@@ -13,7 +13,6 @@ PROGRESS LOGS
 * **Parent gene for PCNA \=** intron-containing, on chromosome 14/15 based on related species. not mapped to chromosome in beluga assembly (ASM228892v3). Located on unplaced scaffold NW\_022098051.1  
 * **Retrogene: c**opy derived from reverse transcription of processed mRNA back into the genome; has no introns (all exons fused continuously). identified by BLAST of exon sequence against genome  
 * **Paralog:** gene related to another within the same organism due to duplication. so in beluga, for example, all three PCNA copies are paralogs of each other. Paralogs are distinct from alleles (same locus, two chromosomes) and orthologs (same gene across species)  
-* Amplicon \= PCR product
 
 **Genomic information available:**
 
@@ -46,16 +45,16 @@ Retrogene 1 vs Retrogene 2: 95% identity, same length (786 bp). Both retrogenes 
 
 **Workflow:**
 
-ddPCR established copy number (confirmed \~3 copies in beluga), which justified amplicon sequencing to characterise each copy individually: identifying paralog-specific variants (PSVs), confirming retrogene architecture (intron absence), and assessing functional integrity of each copy.
+Long-range PCR established copy number (confirmed \~3 copies in beluga), which justified amplicon sequencing to characterise each copy individually: identifying paralog-specific variants (PSVs), confirming retrogene architecture (intron absence), and assessing functional integrity of each copy.
 
 Two primer set strategies were used:
 
 **A primer sets \-** designed within conserved exon sequence shared across all copies:
 
 * PCNA-A Parent: spans introns and exons  
-* PCNA-A Retrogenes: same primers for both retrogenes based on their 95% homology (?), sensitive to annealing temperature, which was optimized to preferentially amplify short intron-free retrogene products. This amplifies **both** retrogenes simultaneously in one pool
+* PCNA-A Retrogenes: same primers for both retrogenes based on their ~95% homology, sensitive to annealing temperature, which was optimized to preferentially amplify short intron-free retrogene products. This amplifies **both** retrogenes simultaneously in one pool
 
-**B primer sets:** one primer in unique genomic flanking region (150 bp outside each retrogene insertion site) \+ one primer in exon body:
+**B primer sets:** designed in unique genomic flanking region (150 bp outside each retrogene insertion site):
 
 * Retrogene1B: specific to Retrogene 1 insertion site; \~1086 bp product since exon only \~786 bp  
 * Retrogene2B: specific to Retrogene 2 insertion site; \~1086 bp product
@@ -100,4 +99,5 @@ wf- amplicon pipeline: input raw reads → aligned to a short target reference �
 * IGV inspection of the B12BelugaPCNA-AParent sample showed higher read coverage in areas, consistent with the expectation of 2 duplications
 * re-run of additional retrogene2 samples: all three beluga retrogene consensus sequences match cleanly to the reference, blue whale sample maps to reference with ~ 11 variants called in the .vcf file. Aligns with prior theory that sample labels may have been mismatched
 * NR whale samples did not possess many variants compared to reference, whereas dolphin sample designed to be a pool of both retrogenes did. undergoing further investigation.
+* Final analysis results are consolidated in poster presentation and will be written into final report.
 
