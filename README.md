@@ -101,8 +101,7 @@ Contents include:
 
 Validation of an experimental approach that combines long-range PCR with Oxford Nanopore amplicon sequencing to characterize selected PCNA parent genes and retrogene copies.
 
-Initial work focused on beluga (*Delphinapterus leucas*) and blue whale (*Balaenoptera musculus*), followed by analyses of North Atlantic right whale (*Eubalaena glacialis*), common bottlenose dolphin (*Tursiops truncatus*), bowhead whale (*Balaena mysticetus*) and narwhal (*Monodon monoceros
-*) samples.
+Initial work focused on beluga (*Delphinapterus leucas*) and blue whale (*Balaenoptera musculus*), followed by analyses of North Atlantic right whale (*Eubalaena glacialis*), common bottlenose dolphin (*Tursiops truncatus*), bowhead whale (*Balaena mysticetus*) and narwhal (*Monodon monoceros*) samples.
 
 Includes:
 
