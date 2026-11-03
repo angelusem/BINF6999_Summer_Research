@@ -1,0 +1,10 @@
+NC: outside the overlapping spans of the parent and RG; treated as unknown.
+Terminal absence could be incomplete extraction or a true truncation; not resolved here.
+Internal gaps are retained; unknown amino acids and both-gap cells are not comparable.
+Each difference must occur in at least min_species distinct species globally to select a site.
+Denominators vary by position. Species counted once if any copy is comparable.
+A 0/0 fraction means no comparable data, not zero divergence.
+Gap columns are not separate biological indel events. Alignment is assumed correct.
+Stops restored from original translations; original X residues remain unknown.
+Protein coordinates do not directly identify nucleotide coordinates or frameshifts.
+A>B denotes present-day parent/RG residues, not evolutionary mutation direction.
