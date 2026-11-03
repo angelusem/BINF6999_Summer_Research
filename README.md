@@ -64,17 +64,11 @@ This repository contains three related analytical components:
 │       ├── identity heatmaps
 │       └── poster figures and source data
 ├── pcna_extension/
-│   └── exploratory_analyses_15_seqs/
-│       ├── sequence sets, alignments, and metadata
-│       ├── exploratory R analysis scripts
-│       ├── circos_parent_only/
-│       ├── circos_own_parent_output/
-│       ├── scripts_visualization/
-│       ├── shared_retrogene_differences/
-│       ├── shared_differences_coverage_aware/
-│       ├── shared_differences_sep28/
-│       ├── trees/
-│       └── visualization scripts and generated figures
+│   ├── BLAST_results/
+│   └── sequence_comparison_multipleSpecies/
+│       ├── CDS_level_analyses/
+│       ├── protein_level_analysis/
+│       └── transcript_level_analyses/
 └── project_documents/
     ├── LLM_validation_log.md
     ├── poster_srp_fin.pdf
@@ -129,10 +123,6 @@ Includes:
 - final poster figures with their source data
 
 ### `pcna_extension/`
-
-Expanded exploratory analyses of PCNA parent-gene and putative retrogene sequences, building on the earlier comparative sequence analyses.
-
-The `exploratory_analyses_15_seqs/` directory contains multiple sequence sets and successive analysis versions. Despite its original name, the directory also includes expanded datasets beyond the initial 15-sequence comparison.
 
 Includes:
 
