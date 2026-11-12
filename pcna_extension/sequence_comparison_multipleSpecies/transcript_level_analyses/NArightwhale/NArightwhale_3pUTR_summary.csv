@@ -1,0 +1,2 @@
+Reference,Query,StartAlignPos,EndAlignPos,ComparedColumns,Substitutions,GapColumns,TotalDifferences,PercentDifferent
+XM_061208358.1:990-2219,NC_083716.1:239259319-239261495,945,2181,1237,37,12,49,3.96
